@@ -170,7 +170,7 @@ Webhook address of your Discord channel. Treat it like a password.
 
 #### 2.056 Display name
 
-`DiscordWebhook.Username` · Default: **“TBot”** · Text · Name shown on the Discord posts
+`DiscordWebhook.Username` · Default: **“B4dLion”** · Text · Name shown on the Discord posts
 
 Name shown as sender of the Discord messages.
 

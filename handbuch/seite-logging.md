@@ -17,7 +17,7 @@ Die Filterleiste hat ein Suchfeld (Suchen...), ein Datumsfeld, die Auswahl Alle 
 1. Im Feld Suchen... einen Text eingeben; nach einer kurzen Tipppause wird gefiltert.
 2. Absender, Stufe und gegebenenfalls Instanz wählen, um die Anzeige einzuschränken.
 3. Mit dem Datumsfeld einen anderen Tag öffnen.
-4. Entwickler (Debug-Log) wählen, um das Developer-Log des Tages (devlogs/TBot-debug-<Datum>.log) zu sehen.
+4. Entwickler (Debug-Log) wählen, um das Developer-Log des Tages (devlogs/B4dLion-debug-<Datum>.log) zu sehen.
 5. Mehr Logs laden klicken, um weitere ältere Einträge anzuzeigen.
 6. Daten verbergen ausblenden lässt Spielername, Universum, Koordinaten und davorstehende Himmelskörper-Namen verschwinden (wirkt auch beim Kopieren).
 

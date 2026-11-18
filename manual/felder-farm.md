@@ -174,9 +174,9 @@ Right before an attack, a report older than this is discarded and the target is 
 
 #### 6.026 Process all reports
 
-`AutoFarm.ProcessAllReports` · Default: **yes** · Switch · Also evaluate reports of targets TBot did not probe itself (manual probes)
+`AutoFarm.ProcessAllReports` · Default: **yes** · Switch · Also evaluate reports of targets B4dLion did not probe itself (manual probes)
 
-Also evaluate reports of targets TBot did not probe itself (e.g. manual probes) when the target is inactive. false = ignore such reports.
+Also evaluate reports of targets B4dLion did not probe itself (e.g. manual probes) when the target is inactive. false = ignore such reports.
 
 #### 6.027 Defended targets per pass
 
@@ -270,7 +270,7 @@ Local Rust API URL. Only loopback hosts (`127.0.0.1`, `localhost`, `::1`) are ac
 
 `AutoFarm.ExternalCalc.AutoStart` · Default: **no** · Switch
 
-Start and supervise the local Rust process on first use (default `false`). The executable must be present beside TBot or at `ExecutablePath`.
+Start and supervise the local Rust process on first use (default `false`). The executable must be present beside B4dLion or at `ExecutablePath`.
 
 #### 6.084 ExecutablePath
 

@@ -174,9 +174,9 @@ Direkt vor einem Angriff wird ein älterer Bericht verworfen und das Ziel erneut
 
 #### 6.026 Alle Berichte verarbeiten
 
-`AutoFarm.ProcessAllReports` · Standard: **ja** · Schalter · Also evaluate reports of targets TBot did not probe itself (manual probes)
+`AutoFarm.ProcessAllReports` · Standard: **ja** · Schalter · Also evaluate reports of targets B4dLion did not probe itself (manual probes)
 
-Berichte zu Zielen, die TBot nicht selbst ausspioniert hat (z.B. manuelle Sonden), trotzdem auswerten, wenn das Ziel inaktiv ist. false = solche Berichte ignorieren.
+Berichte zu Zielen, die B4dLion nicht selbst ausspioniert hat (z.B. manuelle Sonden), trotzdem auswerten, wenn das Ziel inaktiv ist. false = solche Berichte ignorieren.
 
 #### 6.027 Verteidigte Ziele pro Durchgang
 
@@ -278,7 +278,7 @@ _Beschreibung noch englisch._
 
 `AutoFarm.ExternalCalc.AutoStart` · Standard: **nein** · Schalter
 
-Start and supervise the local Rust process on first use (default `false`). The executable must be present beside TBot or at `ExecutablePath`.
+Start and supervise the local Rust process on first use (default `false`). The executable must be present beside B4dLion or at `ExecutablePath`.
 
 _Beschreibung noch englisch._
 

@@ -35,7 +35,7 @@ Fields: [Auctions](felder-auktionen.md)
 
 ## Notes
 
-- The auction bidder (AutoAuction) is only released on request. Without the release the function is not available.
+- The auction bidder is only enabled by the developer. Without that release the function is not available.
 - Amounts are bid points as the game counts them. My last bid is the total sum committed in the auction according to the game.
 - The game shows the end of an auction only in whole minutes, the exact time of the winning bid is not known. Many wins without your bid or bids exactly one step above yours point to an automatic bidder according to the page, but do not prove it.
 

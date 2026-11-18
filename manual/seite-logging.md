@@ -17,7 +17,7 @@ The filter bar has a search field (Search...), a date field, the selection All i
 1. Enter text in the Search... field; after a short typing pause the view is filtered.
 2. Choose sender, level and, if needed, instance to narrow the view.
 3. Use the date field to open another day.
-4. Choose Developer (debug log) to see the day's developer log (devlogs/TBot-debug-<date>.log).
+4. Choose Developer (debug log) to see the day's developer log (devlogs/B4dLion-debug-<date>.log).
 5. Click Load more logs to show further older entries.
 6. Hide data makes player name, universe, coordinates and preceding celestial body names disappear (also when copying).
 
