@@ -26,7 +26,7 @@ Anleitung für die Oberfläche von B4dLion: erst jede Seite mit ihren Reitern un
 - [Allgemein](felder-allgemein.md): 23 Felder
 - [Logistic & Expedition](felder-logistik.md): 47 Felder
 - [Fleet & Farm](felder-farm.md): 108 Felder
-- [Rewards and boosters](felder-belohnungen.md): 3 Felder
+- [Rewards and boosters](felder-belohnungen.md): 8 Felder
 - [Build & Research (Brain)](felder-bauforschung.md): 126 Felder
 - [Security & Sleep](felder-sicherheit.md): 108 Felder
 - [Auktionen](felder-auktionen.md): 41 Felder

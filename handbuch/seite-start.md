@@ -20,7 +20,7 @@ Oben stehen Schalter für die Anzeige: Daten verbergen (blendet Koordinaten und 
 
 ## Worker
 
-Zeigt alle Worker mit einem Schalter (an/aus) und Laufzeitinfo. Ein Klick auf den Namen führt zur Seite des Workers. Für Brain werden die Unter-Worker (Auto Mine, Auto Ships, Auto Research, LF Mine, LF Research, Auto Repatriate, Autobuild Defence, Offer Of The Day, Keep Boosters, Directives, AutoFleetJumpGate) einzeln aufgeführt. Darunter stehen die Slot-Einstellungen (max. Slots je Worker) und die Slot-Priorität je Worker (kleiner = wichtiger).
+Zeigt alle Worker mit einem Schalter (an/aus) und Laufzeitinfo. Ein Klick auf den Namen führt zur Seite des Workers. Für Brain werden die Unter-Worker (Auto Mine, Auto Ships, Auto Research, LF Mine, LF Research, Auto Repatriate, Autobuild Defence, Offer Of The Day, Keep Boosters, Directives, AutoFleetJumpGate) einzeln aufgeführt. Darunter stehen die Slot-Einstellungen (max. Slots je Worker) und die Slot-Priorität je Worker (kleiner = wichtiger). Auch der AutoTrader (Rohstoffhändler) steht in der Liste; seine Einstellungen öffnest du mit einem Klick auf den Namen.
 
 1. Schalter eines Workers anklicken, um ihn ein- oder auszuschalten. Steht dort 'Off by an override', ist er durch einen Override abgeschaltet; bei manchen Workern schaltest du auf deren eigener Seite.
 2. Zahl bei 'max slots' bzw. 'slot priority' ändern, um Slots und Priorität zu setzen.

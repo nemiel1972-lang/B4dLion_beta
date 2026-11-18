@@ -26,7 +26,7 @@ Guide to the B4dLion interface: first every page with its tabs and how to use it
 - [General](felder-allgemein.md): 23 fields
 - [Logistic & Expedition](felder-logistik.md): 47 fields
 - [Fleet & Farm](felder-farm.md): 108 fields
-- [Rewards and boosters](felder-belohnungen.md): 3 fields
+- [Rewards and boosters](felder-belohnungen.md): 8 fields
 - [Build & Research (Brain)](felder-bauforschung.md): 126 fields
 - [Security & Sleep](felder-sicherheit.md): 108 fields
 - [Auctions](felder-auktionen.md): 41 fields

@@ -20,7 +20,7 @@ At the top there are switches for the display: Hide data (hides coordinates and 
 
 ## Workers
 
-Shows all workers with a switch (on/off) and runtime info. Clicking the name opens the worker's page. For Brain the sub-workers (Auto Mine, Auto Ships, Auto Research, LF Mine, LF Research, Auto Repatriate, Autobuild Defence, Offer Of The Day, Keep Boosters, Directives, AutoFleetJumpGate) are listed individually. Below are the slot settings (max. slots per worker) and the slot priority per worker (lower = more important).
+Shows all workers with a switch (on/off) and runtime info. Clicking the name opens the worker's page. For Brain the sub-workers (Auto Mine, Auto Ships, Auto Research, LF Mine, LF Research, Auto Repatriate, Autobuild Defence, Offer Of The Day, Keep Boosters, Directives, AutoFleetJumpGate) are listed individually. Below are the slot settings (max. slots per worker) and the slot priority per worker (lower = more important). The AutoTrader (resource merchant) is listed too; click its name to open its settings.
 
 1. Click a worker's switch to turn it on or off. If it says 'Off by an override', it is switched off by an override; for some workers you switch on their own page.
 2. Change the number at 'max slots' or 'slot priority' to set slots and priority.

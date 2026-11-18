@@ -14,6 +14,10 @@ The page bundles everything about rewards: the tasks of the universe rewards (Tr
 
 _Interface with template values, no real data._
 
+![Rewards and boosters](img/bild-AutoTrader.png)
+
+_Interface with template values, no real data._
+
 ## Tasks
 
 Shows the tasks per Tritium tier with progress, type, what the bot would do and status (open/done). Below are the cards Automatic collection and Rank rewards. The bot only reads the page about every 4 hours; older data (over 90 minutes) is marked in colour with its age. The Log sub-tab shows only the Rewards lines of today's bot log (newest on top).
@@ -74,4 +78,5 @@ Opens the AsteroidHunt block (in Testing): once per game day a ship attacks the 
 - Tasks with Dark Matter, items or purchases always stay manual.
 - Rank rewards are only collected if Automatic collection is on, the rank is reached and you have chosen a reward. With a new event a saved choice expires (choose again).
 - Completing tasks automatically costs resources (ships and defence on the home planet, only the missing amount, the same order not again within 24 hours) and is therefore off by default.
+- The AutoTrader (block AutoTrader, default off) is in the worker list on the Start page. If a resource merchant is present that does not buy metal, it trades a small amount (by default 1 crystal with a deuterium merchant, 1 deuterium with a crystal merchant) so the merchant is used. With a metal merchant, or none, it does nothing. It checks about every two hours; its settings are in the field directory of this page.
 

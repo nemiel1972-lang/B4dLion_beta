@@ -14,6 +14,10 @@ Die Seite bündelt alles rund um Belohnungen: die Aufgaben der Universums-Belohn
 
 _Oberfläche mit Vorlagen-Werten, ohne echte Daten._
 
+![Rewards and boosters](img/bild-AutoTrader.png)
+
+_Oberfläche mit Vorlagen-Werten, ohne echte Daten._
+
 ## Aufgaben
 
 Zeigt die Aufgaben je Tritium-Stufe mit Fortschritt, Typ, dem, was der Bot tun würde, und Status (offen/erledigt). Darunter stehen die Karten Automatisches Abholen und Rangbelohnungen. Der Bot liest die Seite nur etwa alle 4 Stunden mit; ältere Daten (über 90 Minuten) sind farbig mit Altersangabe markiert. Der Unterreiter Log zeigt nur die Rewards-Zeilen des heutigen Bot-Logs (neueste oben).
@@ -74,4 +78,5 @@ Felder: [Build & Research (Brain)](felder-bauforschung.md)
 - Aufgaben mit Dunkler Materie, Items oder Kauf bleiben immer manuell.
 - Rangbelohnungen werden nur abgeholt, wenn Automatisches Abholen an ist, der Rang erreicht ist und du eine Belohnung gewählt hast. Bei einem neuen Event verfällt eine gespeicherte Wahl (neu wählen).
 - Aufgaben automatisch erledigen kostet Rohstoffe (Schiffe und Verteidigung auf dem Heimatplaneten, nur die fehlende Menge, derselbe Auftrag nicht innerhalb von 24 Stunden erneut) und ist deshalb standardmäßig aus.
+- Der AutoTrader (Block AutoTrader, Standard aus) steht in der Worker-Liste der Startseite. Ist ein Rohstoffhändler da, der nicht Metall kauft, tauscht er eine kleine Menge (Standard 1 Kristall bei einem Deuteriumhändler, 1 Deuterium bei einem Kristallhändler), damit der Händler benutzt ist. Bei einem Metallhändler oder ohne Händler tut er nichts. Er prüft etwa alle zwei Stunden; die Einstellungen stehen im Feldverzeichnis dieser Seite.
 
