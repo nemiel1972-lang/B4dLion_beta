@@ -43,10 +43,36 @@ Compares the combat calculators (ogamed/Go, Go with lifeform bonuses, Rust) with
 2. Click a row to open the single battles. 'Export CSV' and 'Export JSON' export with the same filters.
 3. 'Reset' deletes the whole combat log after confirmation; export it first.
 
+## Hunter
+
+Watches players through the galaxy view: on every check the Hunter reads all known systems of the watched players through the galaxy cache scanner. For each player you see highscore, alliance, positions and an activity bar (no activity, timer 15 to 59 min., active under 15 min.). There is also 'Espionage on demand' for targeted spying.
+
+1. Set 'Hunter active', enter the check interval (min. 3 minutes) and click 'Save'.
+2. Enter a player name and click '+ Watch' to watch a player.
+3. Spy buttons: planets and moons, planets only, moons only (for all watched players or per row); tick 'Skip home planet'.
+4. Attack run per position (sword icon): spies and sends an attack only if the escort, profit and fleet checks pass.
+5. Notifications can be set per player: timer, vacation mode, ban.
+
+Fields: [Experimental](felder-experimental.md), [Fleet & Farm](felder-farm.md)
+
+## Galaxy
+
+Read-only view of the galaxy cache: no request is sent to the game, the data is as old as the last scan of the system. Views: solar system, universe map with layers (e.g. inhabited planets, inactive, vacation mode, newbie protection, moons, debris fields, age of the data, own planets, alliances), debris fields and player details.
+
+1. Enter galaxy and system or page with the arrows, click 'Go'.
+2. Search players: enter a name, 'Search'.
+3. 'Debris fields' with 'Min. total' and 'Load'; 'Universe map' for the map; 'Back to the galaxy' returns.
+4. The watch list (player and alliance IDs) is collapsible.
+5. Click a position to open it in the Ogame page (linked according to the code).
+
+Fields: [Experimental](felder-experimental.md)
+
 ## Notes
 
 - Commands to AutoFarm (block, scan + attack, reset) only run in the next cycle; the AutoFarm worker must be active.
 - Reset farm deletes the blacklist, targets, reports, attack history, loss/profit list and scan position; only scanned systems and the galaxy cache stay. Reset entire database also deletes the scanned systems. Neither can be undone.
 - A blocked player is never spied on or attacked by AutoFarm.
 - Without an AutoFarm database the status part shows a note; it fills after the first AutoFarm run.
+- Hunter and Galaxy need Experimental.GalaxyCache.Active.
+- The Hunter and Galaxy pages are embedded in Fleet&Farm; Combat sim can also be reached as its own page with a tab bar.
 
