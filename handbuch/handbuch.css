@@ -16,3 +16,5 @@ figure{margin:16px 0}figure img{max-width:100%;border:1px solid var(--bd);border
 @media(max-width:800px){.wrap{flex-direction:column;padding:12px}nav{width:auto;position:static;flex-direction:row;flex-wrap:wrap}#res{left:16px}}
 nav h4{margin:14px 10px 4px;font-size:12px;letter-spacing:1px;text-transform:uppercase;color:var(--mu)}
 section.f ol{margin:.4em 0 .4em 1.2em;padding:0}
+
+header .lang{margin-left:auto;white-space:nowrap;font-size:13px;color:var(--ac);text-decoration:none;border:1px solid var(--bd);border-radius:8px;padding:6px 10px}

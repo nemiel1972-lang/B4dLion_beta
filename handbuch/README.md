@@ -6,7 +6,7 @@ Felder: [Allgemein](felder-allgemein.md) · [Logistic & Expedition](felder-logis
 
 # B4dLion Handbuch
 
-Anleitung für die Oberfläche von B4dLion: erst jede Seite mit Reitern und Bedienung, dann die Felder, die die Oberfläche zeigt.
+Anleitung für die Oberfläche von B4dLion: erst jede Seite mit ihren Reitern und der Bedienung, dann die Felder, die die Oberfläche zeigt, mit Nummer, Standardwert und Erklärung.
 
 ## Seiten
 
