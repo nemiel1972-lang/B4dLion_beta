@@ -1,4 +1,4 @@
-Seiten: [Übersicht](README.md) · [Start](seite-start.md) · [Ogame](seite-ogame.md) · [Logistic & Expedition](seite-logistik.md) · **Fleet & Farm** · [Rewards and boosters](seite-belohnungen.md) · [Build & Research](seite-bauforschung.md) · [Security & Sleep](seite-sicherheit.md) · [Logging](seite-logging.md) · [Auktionen](seite-auktionen.md) · [Experimental](seite-experimental.md) · [Leiste und Bedienung](seite-bedienung.md)
+Seiten: [Übersicht](README.md) · [Start](seite-start.md) · [Ogame](seite-ogame.md) · [Logistic & Expedition](seite-logistik.md) · **Fleet & Farm** · [Rewards and boosters](seite-belohnungen.md) · [Build & Research](seite-bauforschung.md) · [Security & Sleep](seite-sicherheit.md) · [Logging](seite-logging.md) · [Auktionen](seite-auktionen.md) · [Leiste und Bedienung](seite-bedienung.md)
 
 Felder: [Allgemein](felder-allgemein.md) · [Logistic & Expedition](felder-logistik.md) · [Fleet & Farm](felder-farm.md) · [Rewards and boosters](felder-belohnungen.md) · [Build & Research (Brain)](felder-bauforschung.md) · [Security & Sleep](felder-sicherheit.md) · [Auktionen](felder-auktionen.md) · [Experimental](felder-experimental.md)
 
@@ -43,36 +43,10 @@ Vergleicht die Kampfrechner (ogamed/Go, Go mit Lebensform-Boni, Rust) mit gemess
 2. Zeile anklicken, um die Einzelkämpfe aufzuklappen. 'Export CSV' und 'Export JSON' exportieren mit denselben Filtern.
 3. 'Reset' löscht das gesamte Kampflog nach Rückfrage; vorher exportieren.
 
-## Hunter
-
-Nur im SLOTS-Build. Beobachtet Spieler anhand der Galaxie-Ansicht: Der Hunter liest in jeder Prüfung alle bekannten Systeme der beobachteten Spieler über den Galaxie-Cache-Scanner. Du siehst je Spieler Highscore, Allianz, Positionen und eine Aktivitätsleiste (keine Aktivität, Timer 15 bis 59 Min., aktiv unter 15 Min.). Zusätzlich 'Espionage on demand' zum gezielten Ausspähen.
-
-1. 'Hunter active' setzen, Prüfintervall (min. 3 Minuten) eintragen und 'Save' klicken.
-2. Spielername eintragen und '+ Watch' klicken, um einen Spieler zu beobachten.
-3. Spy-Knöpfe: Planeten und Monde, nur Planeten, nur Monde (für alle beobachteten Spieler oder je Zeile); Haken 'Skip home planet'.
-4. Angriffslauf je Position (Schwert-Symbol): spioniert und sendet einen Angriff nur, wenn Geleitschutz-, Gewinn- und Flottenprüfung bestehen.
-5. Je Spieler lassen sich Benachrichtigungen setzen: Timer, Urlaubsmodus, Sperre.
-
-Felder: [Experimental](felder-experimental.md), [Fleet & Farm](felder-farm.md)
-
-## Galaxy
-
-Nur im SLOTS-Build. Schreibgeschützte Ansicht des Galaxie-Caches: Es wird keine Anfrage ans Spiel gesendet, die Daten sind so alt wie der letzte Scan des Systems. Ansichten: Sonnensystem, Universumskarte mit Ebenen (z. B. bewohnte Planeten, Inaktive, Urlaubsmodus, Neulingsschutz, Monde, Trümmerfelder, Alter der Daten, eigene Planeten, Allianzen), Trümmerfelder und Spielerdetails.
-
-1. Galaxie und System eintragen oder mit den Pfeilen blättern, 'Go' klicken.
-2. Spieler suchen: Name eintragen, 'Search'.
-3. 'Debris fields' mit 'Min. total' und 'Load'; 'Universe map' für die Karte; 'Back to the galaxy' führt zurück.
-4. Die Watch list (Spieler- und Allianz-IDs) ist einklappbar.
-5. Position anklicken, um sie in der Ogame-Seite zu öffnen (laut Code verlinkt).
-
-Felder: [Experimental](felder-experimental.md)
-
 ## Hinweise
 
-- Hunter und Galaxy erscheinen nur im SLOTS-Build; sie brauchen Experimental.GalaxyCache.Active.
 - Befehle an AutoFarm (Sperren, Scan + Angriff, Reset) laufen erst im nächsten Zyklus; der AutoFarm-Worker muss aktiv sein.
 - Farm zurücksetzen löscht Blacklist, Ziele, Berichte, Angriffsverlauf, Verlust-/Gewinnliste und Scan-Position; nur gescannte Systeme und der Galaxie-Cache bleiben. Gesamte Datenbank zurücksetzen löscht auch die gescannten Systeme. Beides ist nicht rückgängig zu machen.
 - Ein gesperrter Spieler wird von AutoFarm nie ausgespäht oder angegriffen.
 - Ohne AutoFarm-Datenbank zeigt der Status-Teil einen Hinweis; er füllt sich nach dem ersten AutoFarm-Lauf.
-- Die Hunter- und Galaxy-Seiten sind in Fleet&Farm eingebettet (embed); Combat sim ist zusätzlich als eigene Seite mit Reiterleiste erreichbar.
 

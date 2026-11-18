@@ -1,4 +1,4 @@
-Seiten: [Übersicht](README.md) · [Start](seite-start.md) · [Ogame](seite-ogame.md) · [Logistic & Expedition](seite-logistik.md) · [Fleet & Farm](seite-farm.md) · [Rewards and boosters](seite-belohnungen.md) · [Build & Research](seite-bauforschung.md) · [Security & Sleep](seite-sicherheit.md) · [Logging](seite-logging.md) · [Auktionen](seite-auktionen.md) · [Experimental](seite-experimental.md) · **Leiste und Bedienung**
+Seiten: [Übersicht](README.md) · [Start](seite-start.md) · [Ogame](seite-ogame.md) · [Logistic & Expedition](seite-logistik.md) · [Fleet & Farm](seite-farm.md) · [Rewards and boosters](seite-belohnungen.md) · [Build & Research](seite-bauforschung.md) · [Security & Sleep](seite-sicherheit.md) · [Logging](seite-logging.md) · [Auktionen](seite-auktionen.md) · **Leiste und Bedienung**
 
 Felder: [Allgemein](felder-allgemein.md) · [Logistic & Expedition](felder-logistik.md) · [Fleet & Farm](felder-farm.md) · [Rewards and boosters](felder-belohnungen.md) · [Build & Research (Brain)](felder-bauforschung.md) · [Security & Sleep](felder-sicherheit.md) · [Auktionen](felder-auktionen.md) · [Experimental](felder-experimental.md)
 
@@ -32,14 +32,14 @@ Das Protokoll-Symbol öffnet die Seite Logging. Daneben steht Build mit Commit u
 
 ## Deckkraft der Karten
 
-Auf Seiten mit Hintergrundbild (Start, Logistic&Expedition, Fleet&Farm, Bau&Forschung, Belohnungen und Booster, Security&Sleep, Slots) liegt in der Leiste ein kleiner Regler mit Halbmond-Symbol (Kartendeckkraft). Er macht die Karten über dem Bild besser lesbar. Der Wert gilt für alle Seiten und wird im Browser gemerkt.
+Auf Seiten mit Hintergrundbild (Start, Logistic&Expedition, Fleet&Farm, Bau&Forschung, Belohnungen und Booster, Security&Sleep) liegt in der Leiste ein kleiner Regler mit Halbmond-Symbol (Kartendeckkraft). Er macht die Karten über dem Bild besser lesbar. Der Wert gilt für alle Seiten und wird im Browser gemerkt.
 
 1. Regler ziehen (Bereich -30 bis 45, Schritte von 5).
 2. Doppelklick auf den Regler setzt ihn auf 0 zurück.
 
 ## Daten verbergen
 
-Schalter auf vielen Seiten (Belohnungen, Auktionen, Slots, Bau&Forschung, Logging, Config-Seiten): ersetzt Namen, Koordinaten und andere Daten durch *****, zum Beispiel für Screenshots. Die Vorgabe kommt aus General.AnonymizeLogs (Beschriftung dort: Daten verbergen); der Schalter auf einer Seite überschreibt sie nur in diesem Browser.
+Schalter auf vielen Seiten (Belohnungen, Auktionen, Bau&Forschung, Logging, Config-Seiten): ersetzt Namen, Koordinaten und andere Daten durch *****, zum Beispiel für Screenshots. Die Vorgabe kommt aus General.AnonymizeLogs (Beschriftung dort: Daten verbergen); der Schalter auf einer Seite überschreibt sie nur in diesem Browser.
 
 1. Haken bei Daten verbergen setzen oder entfernen; der Zustand gilt seitenübergreifend.
 

@@ -1,4 +1,4 @@
-Seiten: [Übersicht](README.md) · **Start** · [Ogame](seite-ogame.md) · [Logistic & Expedition](seite-logistik.md) · [Fleet & Farm](seite-farm.md) · [Rewards and boosters](seite-belohnungen.md) · [Build & Research](seite-bauforschung.md) · [Security & Sleep](seite-sicherheit.md) · [Logging](seite-logging.md) · [Auktionen](seite-auktionen.md) · [Experimental](seite-experimental.md) · [Leiste und Bedienung](seite-bedienung.md)
+Seiten: [Übersicht](README.md) · **Start** · [Ogame](seite-ogame.md) · [Logistic & Expedition](seite-logistik.md) · [Fleet & Farm](seite-farm.md) · [Rewards and boosters](seite-belohnungen.md) · [Build & Research](seite-bauforschung.md) · [Security & Sleep](seite-sicherheit.md) · [Logging](seite-logging.md) · [Auktionen](seite-auktionen.md) · [Leiste und Bedienung](seite-bedienung.md)
 
 Felder: [Allgemein](felder-allgemein.md) · [Logistic & Expedition](felder-logistik.md) · [Fleet & Farm](felder-farm.md) · [Rewards and boosters](felder-belohnungen.md) · [Build & Research (Brain)](felder-bauforschung.md) · [Security & Sleep](felder-sicherheit.md) · [Auktionen](felder-auktionen.md) · [Experimental](felder-experimental.md)
 
@@ -44,6 +44,5 @@ Bei einem Angriff erscheint eine rot umrandete Kachel 'Eingehende Angriffe'. Der
 
 - Die Statuswerte kommen aus einer Statusdatei, die der Bot etwa alle 30 Sekunden schreibt; fehlt sie oder ist sie alt, zeigt die Seite keine oder ältere Werte.
 - Ist die Summe der geplanten Slots größer als die verfügbaren (Spiel-Slots minus frei zu haltende Slots), wird der Zähler rot; die Slot-Priorität entscheidet dann.
-- der Hunter-Schalter nur im SLOTS-Build.
 - Hast du mehrere Instanzen, wählst du sie in einem Auswahlfeld; mit nur einer Instanz ist es ausgeblendet.
 

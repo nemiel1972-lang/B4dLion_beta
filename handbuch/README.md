@@ -1,4 +1,4 @@
-Seiten: **Übersicht** · [Start](seite-start.md) · [Ogame](seite-ogame.md) · [Logistic & Expedition](seite-logistik.md) · [Fleet & Farm](seite-farm.md) · [Rewards and boosters](seite-belohnungen.md) · [Build & Research](seite-bauforschung.md) · [Security & Sleep](seite-sicherheit.md) · [Logging](seite-logging.md) · [Auktionen](seite-auktionen.md) · [Experimental](seite-experimental.md) · [Leiste und Bedienung](seite-bedienung.md)
+Seiten: **Übersicht** · [Start](seite-start.md) · [Ogame](seite-ogame.md) · [Logistic & Expedition](seite-logistik.md) · [Fleet & Farm](seite-farm.md) · [Rewards and boosters](seite-belohnungen.md) · [Build & Research](seite-bauforschung.md) · [Security & Sleep](seite-sicherheit.md) · [Logging](seite-logging.md) · [Auktionen](seite-auktionen.md) · [Leiste und Bedienung](seite-bedienung.md)
 
 Felder: [Allgemein](felder-allgemein.md) · [Logistic & Expedition](felder-logistik.md) · [Fleet & Farm](felder-farm.md) · [Rewards and boosters](felder-belohnungen.md) · [Build & Research (Brain)](felder-bauforschung.md) · [Security & Sleep](felder-sicherheit.md) · [Auktionen](felder-auktionen.md) · [Experimental](felder-experimental.md)
 
@@ -19,7 +19,6 @@ Anleitung für die Oberfläche von B4dLion: erst jede Seite mit ihren Reitern un
 - [Security & Sleep](seite-sicherheit.md): Hier stellst du ein, wann der Bot schläft und was er dabei tut, wie er auf Angriffe und Spionage reagiert und 
 - [Logging](seite-logging.md): Zeigt das Protokoll des Bots live: neue Zeilen erscheinen automatisch, du kannst nach Instanz, Absender, Stufe
 - [Auktionen](seite-auktionen.md): Zeigt das Ergebnis jeder Auktion, die der Bot gesehen hat: gewonnen oder verloren, das Höchstgebot und dein zu
-- [Experimental](seite-experimental.md): Zeigt die gemessene Belegung der Flottenslots: der Bot erfasst einmal pro Minute, wer wie viele Slots hält, un
 - [Leiste und Bedienung](seite-bedienung.md): Die Leiste oben steht auf jeder Seite und führt zu allen Bereichen. Rechts daneben liegen die Bedienelemente f
 
 ## Felder
