@@ -1,6 +1,6 @@
 Pages: [Overview](README.md) · [Start](seite-start.md) · [Ogame](seite-ogame.md) · **Logistic & Expedition** · [Fleet & Farm](seite-farm.md) · [Rewards and boosters](seite-belohnungen.md) · [Build & Research](seite-bauforschung.md) · [Security & Sleep](seite-sicherheit.md) · [Logging](seite-logging.md) · [Auctions](seite-auktionen.md) · [Bar and controls](seite-bedienung.md)
 
-Fields: [General](felder-allgemein.md) · [Logistic & Expedition](felder-logistik.md) · [Fleet & Farm](felder-farm.md) · [Rewards and boosters](felder-belohnungen.md) · [Build & Research (Brain)](felder-bauforschung.md) · [Security & Sleep](felder-sicherheit.md) · [Auctions](felder-auktionen.md) · [Experimental](felder-experimental.md)
+Fields: [General](felder-allgemein.md) · [Logistic & Expedition](felder-logistik.md) · [Fleet & Farm](felder-farm.md) · [Rewards and boosters](felder-belohnungen.md) · [Build & Research (Brain)](felder-bauforschung.md) · [Security & Sleep](felder-sicherheit.md) · [Auctions](felder-auktionen.md)
 
 ---
 
@@ -23,7 +23,7 @@ Four boxes. 'Lifeform and expedition bonuses' shows bonuses that were read, the 
 3. 'Refill expeditions': set Small Cargos and Pathfinders each to 'Refill' or 'None'; tick 'Spread everything over the expo slots' for small players; then 'Save' or 'Save fleet'.
 4. Settings: open the groups, change values and save at the bottom ('Save settings').
 
-Fields: [Logistic & Expedition](felder-logistik.md), [Build & Research (Brain)](felder-bauforschung.md), [Security & Sleep](felder-sicherheit.md), [Experimental](felder-experimental.md)
+Fields: [Logistic & Expedition](felder-logistik.md), [Build & Research (Brain)](felder-bauforschung.md), [Security & Sleep](felder-sicherheit.md)
 
 ## Logistic
 
@@ -40,7 +40,7 @@ The settings of Brain.AutoRepatriate (bring all resources to the target, Reverse
 
 1. Open and close boxes, change fields, then 'Save all' or 'Discard'.
 
-Fields: [Build & Research (Brain)](felder-bauforschung.md), [Experimental](felder-experimental.md)
+Fields: [Build & Research (Brain)](felder-bauforschung.md), [Security & Sleep](felder-sicherheit.md)
 
 ## Notes
 

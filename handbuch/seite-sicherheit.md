@@ -1,6 +1,6 @@
 Seiten: [Übersicht](README.md) · [Start](seite-start.md) · [Ogame](seite-ogame.md) · [Logistic & Expedition](seite-logistik.md) · [Fleet & Farm](seite-farm.md) · [Rewards and boosters](seite-belohnungen.md) · [Build & Research](seite-bauforschung.md) · **Security & Sleep** · [Logging](seite-logging.md) · [Auktionen](seite-auktionen.md) · [Leiste und Bedienung](seite-bedienung.md)
 
-Felder: [Allgemein](felder-allgemein.md) · [Logistic & Expedition](felder-logistik.md) · [Fleet & Farm](felder-farm.md) · [Rewards and boosters](felder-belohnungen.md) · [Build & Research (Brain)](felder-bauforschung.md) · [Security & Sleep](felder-sicherheit.md) · [Auktionen](felder-auktionen.md) · [Experimental](felder-experimental.md)
+Felder: [Allgemein](felder-allgemein.md) · [Logistic & Expedition](felder-logistik.md) · [Fleet & Farm](felder-farm.md) · [Rewards and boosters](felder-belohnungen.md) · [Build & Research (Brain)](felder-bauforschung.md) · [Security & Sleep](felder-sicherheit.md) · [Auktionen](felder-auktionen.md)
 
 ---
 
@@ -49,4 +49,5 @@ Felder: [Allgemein](felder-allgemein.md)
 - Der Schlaf-Fleetsave meldet per Telegram, sofern SleepMode.TelegramMessenger aktiv ist; ein Fleetsave durch den Defender oder per Telegram-Befehl meldet unabhängig davon wie bisher.
 - Der Defender-Eintrag 0 in der Whitelist ist nur der Platzhalter der Vorlage (0 heißt: Angreifer unbekannt); trage echte Spieler-IDs ein.
 - BotPause verweigert eine Verzögerung, solange du schläfst, ein Angriff naht oder ein Rückruf fällig ist (laut Referenz).
+- Die Kästen des Blocks Experimental (z. B. Galaxie-Cache und Diagnose-Log) stehen ebenfalls auf dieser Seite; der Block hat kein eigenes Formular.
 

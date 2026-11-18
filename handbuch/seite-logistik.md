@@ -1,6 +1,6 @@
 Seiten: [Übersicht](README.md) · [Start](seite-start.md) · [Ogame](seite-ogame.md) · **Logistic & Expedition** · [Fleet & Farm](seite-farm.md) · [Rewards and boosters](seite-belohnungen.md) · [Build & Research](seite-bauforschung.md) · [Security & Sleep](seite-sicherheit.md) · [Logging](seite-logging.md) · [Auktionen](seite-auktionen.md) · [Leiste und Bedienung](seite-bedienung.md)
 
-Felder: [Allgemein](felder-allgemein.md) · [Logistic & Expedition](felder-logistik.md) · [Fleet & Farm](felder-farm.md) · [Rewards and boosters](felder-belohnungen.md) · [Build & Research (Brain)](felder-bauforschung.md) · [Security & Sleep](felder-sicherheit.md) · [Auktionen](felder-auktionen.md) · [Experimental](felder-experimental.md)
+Felder: [Allgemein](felder-allgemein.md) · [Logistic & Expedition](felder-logistik.md) · [Fleet & Farm](felder-farm.md) · [Rewards and boosters](felder-belohnungen.md) · [Build & Research (Brain)](felder-bauforschung.md) · [Security & Sleep](felder-sicherheit.md) · [Auktionen](felder-auktionen.md)
 
 ---
 
@@ -23,7 +23,7 @@ Vier Kästen. 'Lebensform- und Expeditions-Boni' zeigt gelesene Boni, die maxima
 3. 'Expeditionen auffüllen': Kleine Transporter und Pathfinder jeweils auf 'Auffüllen' oder 'None' stellen; Haken 'Alles auf die Expo-Slots verteilen' für kleine Spieler; dann 'Save' bzw. 'Save fleet'.
 4. Einstellungen: Gruppen aufklappen, Werte ändern und unten speichern ('Einstellungen speichern').
 
-Felder: [Logistic & Expedition](felder-logistik.md), [Build & Research (Brain)](felder-bauforschung.md), [Security & Sleep](felder-sicherheit.md), [Experimental](felder-experimental.md)
+Felder: [Logistic & Expedition](felder-logistik.md), [Build & Research (Brain)](felder-bauforschung.md), [Security & Sleep](felder-sicherheit.md)
 
 ## Logistic
 
@@ -40,7 +40,7 @@ Die Einstellungen von Brain.AutoRepatriate (Rückführen aller Rohstoffe zum Zie
 
 1. Kästen auf- und zuklappen, Felder ändern, dann 'Alle speichern' oder 'Verwerfen'.
 
-Felder: [Build & Research (Brain)](felder-bauforschung.md), [Experimental](felder-experimental.md)
+Felder: [Build & Research (Brain)](felder-bauforschung.md), [Security & Sleep](felder-sicherheit.md)
 
 ## Hinweise
 

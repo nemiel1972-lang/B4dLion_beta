@@ -1,6 +1,6 @@
 Pages: [Overview](README.md) · [Start](seite-start.md) · [Ogame](seite-ogame.md) · [Logistic & Expedition](seite-logistik.md) · **Fleet & Farm** · [Rewards and boosters](seite-belohnungen.md) · [Build & Research](seite-bauforschung.md) · [Security & Sleep](seite-sicherheit.md) · [Logging](seite-logging.md) · [Auctions](seite-auktionen.md) · [Bar and controls](seite-bedienung.md)
 
-Fields: [General](felder-allgemein.md) · [Logistic & Expedition](felder-logistik.md) · [Fleet & Farm](felder-farm.md) · [Rewards and boosters](felder-belohnungen.md) · [Build & Research (Brain)](felder-bauforschung.md) · [Security & Sleep](felder-sicherheit.md) · [Auctions](felder-auktionen.md) · [Experimental](felder-experimental.md)
+Fields: [General](felder-allgemein.md) · [Logistic & Expedition](felder-logistik.md) · [Fleet & Farm](felder-farm.md) · [Rewards and boosters](felder-belohnungen.md) · [Build & Research (Brain)](felder-bauforschung.md) · [Security & Sleep](felder-sicherheit.md) · [Auctions](felder-auktionen.md)
 
 ---
 
@@ -23,7 +23,7 @@ Has two parts: Status and Settings. Status has the views Overview (worker status
 3. 'Reset farm' and 'Reset entire database' additionally require you to type DELETE.
 4. Settings: change values, then 'Save changes' or 'Discard'. Only changed fields are saved.
 
-Fields: [Fleet & Farm](felder-farm.md), [Experimental](felder-experimental.md)
+Fields: [Fleet & Farm](felder-farm.md), [Security & Sleep](felder-sicherheit.md)
 
 ## HoldForReview
 
@@ -53,7 +53,7 @@ Watches players through the galaxy view: on every check the Hunter reads all kno
 4. Attack run per position (sword icon): spies and sends an attack only if the escort, profit and fleet checks pass.
 5. Notifications can be set per player: timer, vacation mode, ban.
 
-Fields: [Experimental](felder-experimental.md), [Fleet & Farm](felder-farm.md)
+Fields: [Security & Sleep](felder-sicherheit.md), [Fleet & Farm](felder-farm.md)
 
 ## Galaxy
 
@@ -65,7 +65,7 @@ Read-only view of the galaxy cache: no request is sent to the game, the data is 
 4. The watch list (player and alliance IDs) is collapsible.
 5. Click a position to open it in the Ogame page (linked according to the code).
 
-Fields: [Experimental](felder-experimental.md)
+Fields: [Security & Sleep](felder-sicherheit.md)
 
 ## Notes
 

@@ -1,6 +1,6 @@
 Pages: [Overview](README.md) · [Start](seite-start.md) · [Ogame](seite-ogame.md) · [Logistic & Expedition](seite-logistik.md) · [Fleet & Farm](seite-farm.md) · [Rewards and boosters](seite-belohnungen.md) · [Build & Research](seite-bauforschung.md) · **Security & Sleep** · [Logging](seite-logging.md) · [Auctions](seite-auktionen.md) · [Bar and controls](seite-bedienung.md)
 
-Fields: [General](felder-allgemein.md) · [Logistic & Expedition](felder-logistik.md) · [Fleet & Farm](felder-farm.md) · [Rewards and boosters](felder-belohnungen.md) · [Build & Research (Brain)](felder-bauforschung.md) · [Security & Sleep](felder-sicherheit.md) · [Auctions](felder-auktionen.md) · [Experimental](felder-experimental.md)
+Fields: [General](felder-allgemein.md) · [Logistic & Expedition](felder-logistik.md) · [Fleet & Farm](felder-farm.md) · [Rewards and boosters](felder-belohnungen.md) · [Build & Research (Brain)](felder-bauforschung.md) · [Security & Sleep](felder-sicherheit.md) · [Auctions](felder-auktionen.md)
 
 ---
 
@@ -49,4 +49,5 @@ Fields: [General](felder-allgemein.md)
 - The sleep fleetsave reports by Telegram if SleepMode.TelegramMessenger is active; a fleetsave by the Defender or by Telegram command reports independently, as before.
 - The Defender whitelist entry 0 is only the placeholder of the template (0 means: attacker unknown); enter real player IDs.
 - BotPause refuses a delay while you are asleep, an attack is approaching or a recall is due (according to the reference).
+- The boxes of the Experimental block (e.g. galaxy cache and diagnostic log) are also on this page; the block has no form of its own.
 

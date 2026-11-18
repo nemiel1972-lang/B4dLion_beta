@@ -1,6 +1,6 @@
 Pages: [Overview](README.md) · [Start](seite-start.md) · [Ogame](seite-ogame.md) · [Logistic & Expedition](seite-logistik.md) · [Fleet & Farm](seite-farm.md) · [Rewards and boosters](seite-belohnungen.md) · **Build & Research** · [Security & Sleep](seite-sicherheit.md) · [Logging](seite-logging.md) · [Auctions](seite-auktionen.md) · [Bar and controls](seite-bedienung.md)
 
-Fields: [General](felder-allgemein.md) · [Logistic & Expedition](felder-logistik.md) · [Fleet & Farm](felder-farm.md) · [Rewards and boosters](felder-belohnungen.md) · [Build & Research (Brain)](felder-bauforschung.md) · [Security & Sleep](felder-sicherheit.md) · [Auctions](felder-auktionen.md) · [Experimental](felder-experimental.md)
+Fields: [General](felder-allgemein.md) · [Logistic & Expedition](felder-logistik.md) · [Fleet & Farm](felder-farm.md) · [Rewards and boosters](felder-belohnungen.md) · [Build & Research (Brain)](felder-bauforschung.md) · [Security & Sleep](felder-sicherheit.md) · [Auctions](felder-auktionen.md)
 
 ---
 
@@ -41,7 +41,7 @@ Live view of the mine plan, read-only (AutoMine writes the data). At the top a f
 1. Open Plan settings (mine plan), change values, Save changes or Discard.
 2. You set the order of all buildings, according to the display, on the start page (Order of all buildings).
 
-Fields: [Experimental](felder-experimental.md), [Build & Research (Brain)](felder-bauforschung.md)
+Fields: [Security & Sleep](felder-sicherheit.md), [Build & Research (Brain)](felder-bauforschung.md)
 
 ## AutoMine
 

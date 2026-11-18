@@ -1,6 +1,6 @@
 Seiten: [Übersicht](README.md) · [Start](seite-start.md) · [Ogame](seite-ogame.md) · [Logistic & Expedition](seite-logistik.md) · [Fleet & Farm](seite-farm.md) · [Rewards and boosters](seite-belohnungen.md) · **Build & Research** · [Security & Sleep](seite-sicherheit.md) · [Logging](seite-logging.md) · [Auktionen](seite-auktionen.md) · [Leiste und Bedienung](seite-bedienung.md)
 
-Felder: [Allgemein](felder-allgemein.md) · [Logistic & Expedition](felder-logistik.md) · [Fleet & Farm](felder-farm.md) · [Rewards and boosters](felder-belohnungen.md) · [Build & Research (Brain)](felder-bauforschung.md) · [Security & Sleep](felder-sicherheit.md) · [Auktionen](felder-auktionen.md) · [Experimental](felder-experimental.md)
+Felder: [Allgemein](felder-allgemein.md) · [Logistic & Expedition](felder-logistik.md) · [Fleet & Farm](felder-farm.md) · [Rewards and boosters](felder-belohnungen.md) · [Build & Research (Brain)](felder-bauforschung.md) · [Security & Sleep](felder-sicherheit.md) · [Auktionen](felder-auktionen.md)
 
 ---
 
@@ -41,7 +41,7 @@ Live-Ansicht des Minenplans, nur lesend (die Daten schreibt AutoMine). Oben zeig
 1. Planeinstellungen (Minenplan) aufklappen, Werte ändern, Änderungen speichern oder Verwerfen.
 2. Die Reihenfolge aller Bauten stellst du laut Anzeige auf der Startseite ein (Reihenfolge aller Bauten).
 
-Felder: [Experimental](felder-experimental.md), [Build & Research (Brain)](felder-bauforschung.md)
+Felder: [Security & Sleep](felder-sicherheit.md), [Build & Research (Brain)](felder-bauforschung.md)
 
 ## AutoMine
 

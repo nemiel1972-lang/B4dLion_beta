@@ -1,6 +1,6 @@
 Pages: **Overview** · [Start](seite-start.md) · [Ogame](seite-ogame.md) · [Logistic & Expedition](seite-logistik.md) · [Fleet & Farm](seite-farm.md) · [Rewards and boosters](seite-belohnungen.md) · [Build & Research](seite-bauforschung.md) · [Security & Sleep](seite-sicherheit.md) · [Logging](seite-logging.md) · [Auctions](seite-auktionen.md) · [Bar and controls](seite-bedienung.md)
 
-Fields: [General](felder-allgemein.md) · [Logistic & Expedition](felder-logistik.md) · [Fleet & Farm](felder-farm.md) · [Rewards and boosters](felder-belohnungen.md) · [Build & Research (Brain)](felder-bauforschung.md) · [Security & Sleep](felder-sicherheit.md) · [Auctions](felder-auktionen.md) · [Experimental](felder-experimental.md)
+Fields: [General](felder-allgemein.md) · [Logistic & Expedition](felder-logistik.md) · [Fleet & Farm](felder-farm.md) · [Rewards and boosters](felder-belohnungen.md) · [Build & Research (Brain)](felder-bauforschung.md) · [Security & Sleep](felder-sicherheit.md) · [Auctions](felder-auktionen.md)
 
 ---
 
@@ -28,6 +28,5 @@ Guide to the B4dLion interface: first every page with its tabs and how to use it
 - [Fleet & Farm](felder-farm.md): 108 fields
 - [Rewards and boosters](felder-belohnungen.md): 3 fields
 - [Build & Research (Brain)](felder-bauforschung.md): 126 fields
-- [Security & Sleep](felder-sicherheit.md): 31 fields
+- [Security & Sleep](felder-sicherheit.md): 108 fields
 - [Auctions](felder-auktionen.md): 41 fields
-- [Experimental](felder-experimental.md): 77 fields

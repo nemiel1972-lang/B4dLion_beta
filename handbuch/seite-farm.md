@@ -1,6 +1,6 @@
 Seiten: [Übersicht](README.md) · [Start](seite-start.md) · [Ogame](seite-ogame.md) · [Logistic & Expedition](seite-logistik.md) · **Fleet & Farm** · [Rewards and boosters](seite-belohnungen.md) · [Build & Research](seite-bauforschung.md) · [Security & Sleep](seite-sicherheit.md) · [Logging](seite-logging.md) · [Auktionen](seite-auktionen.md) · [Leiste und Bedienung](seite-bedienung.md)
 
-Felder: [Allgemein](felder-allgemein.md) · [Logistic & Expedition](felder-logistik.md) · [Fleet & Farm](felder-farm.md) · [Rewards and boosters](felder-belohnungen.md) · [Build & Research (Brain)](felder-bauforschung.md) · [Security & Sleep](felder-sicherheit.md) · [Auktionen](felder-auktionen.md) · [Experimental](felder-experimental.md)
+Felder: [Allgemein](felder-allgemein.md) · [Logistic & Expedition](felder-logistik.md) · [Fleet & Farm](felder-farm.md) · [Rewards and boosters](felder-belohnungen.md) · [Build & Research (Brain)](felder-bauforschung.md) · [Security & Sleep](felder-sicherheit.md) · [Auktionen](felder-auktionen.md)
 
 ---
 
@@ -23,7 +23,7 @@ Hat zwei Unterteile: Status und Settings. Status hat die Ansichten Übersicht (W
 3. 'Farm zurücksetzen' und 'Gesamte Datenbank zurücksetzen' verlangen zusätzlich die Eingabe von DELETE.
 4. Settings: Werte ändern, dann 'Änderungen speichern' oder 'Verwerfen'. Gespeichert werden nur geänderte Felder.
 
-Felder: [Fleet & Farm](felder-farm.md), [Experimental](felder-experimental.md)
+Felder: [Fleet & Farm](felder-farm.md), [Security & Sleep](felder-sicherheit.md)
 
 ## HoldForReview
 
@@ -53,7 +53,7 @@ Beobachtet Spieler anhand der Galaxie-Ansicht: Der Hunter liest in jeder Prüfun
 4. Angriffslauf je Position (Schwert-Symbol): spioniert und sendet einen Angriff nur, wenn Geleitschutz-, Gewinn- und Flottenprüfung bestehen.
 5. Je Spieler lassen sich Benachrichtigungen setzen: Timer, Urlaubsmodus, Sperre.
 
-Felder: [Experimental](felder-experimental.md), [Fleet & Farm](felder-farm.md)
+Felder: [Security & Sleep](felder-sicherheit.md), [Fleet & Farm](felder-farm.md)
 
 ## Galaxy
 
@@ -65,7 +65,7 @@ Schreibgeschützte Ansicht des Galaxie-Caches: Es wird keine Anfrage ans Spiel g
 4. Die Watch list (Spieler- und Allianz-IDs) ist einklappbar.
 5. Position anklicken, um sie in der Ogame-Seite zu öffnen (laut Code verlinkt).
 
-Felder: [Experimental](felder-experimental.md)
+Felder: [Security & Sleep](felder-sicherheit.md)
 
 ## Hinweise
 
