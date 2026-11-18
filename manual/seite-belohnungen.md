@@ -38,7 +38,7 @@ Fields: [Build & Research (Brain)](felder-bauforschung.md)
 
 ## Auctions
 
-Shows the Auctions page embedded (see the Auctions page).
+Shows the Auctions page embedded (see the Auctions page). The auction bidder is only released on request.
 
 Fields: [Auctions](felder-auktionen.md)
 

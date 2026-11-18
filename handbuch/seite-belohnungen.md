@@ -38,7 +38,7 @@ Felder: [Build & Research (Brain)](felder-bauforschung.md)
 
 ## Auktionen
 
-Zeigt die Auktionen-Seite eingebettet (siehe Seite Auktionen).
+Zeigt die Auktionen-Seite eingebettet (siehe Seite Auktionen). Der Auktions-Bieter wird nur auf Nachfrage freigegeben.
 
 Felder: [Auktionen](felder-auktionen.md)
 

@@ -35,6 +35,7 @@ Felder: [Auktionen](felder-auktionen.md)
 
 ## Hinweise
 
+- Der Auktions-Bieter (AutoAuction) wird nur auf Nachfrage freigegeben. Ohne Freigabe ist die Funktion nicht verfügbar.
 - Beträge sind Gebotspunkte, wie das Spiel sie zählt. Mein letztes Gebot ist die insgesamt in der Auktion gebundene Summe laut Spiel.
 - Das Spiel zeigt das Ende einer Auktion nur in ganzen Minuten, die genaue Zeit des Gewinngebots ist nicht bekannt. Viele Siege ohne dein Gebot oder Gebote genau eine Stufe über deinem sprechen laut Seite für einen automatischen Bieter, beweisen es aber nicht.
 
