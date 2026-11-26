@@ -1,6 +1,6 @@
-Pages: [Overview](README.md) · [Start](seite-start.md) · [Ogame](seite-ogame.md) · [Logistic & Expedition](seite-logistik.md) · [Fleet & Farm](seite-farm.md) · [Rewards and boosters](seite-belohnungen.md) · [Build & Research](seite-bauforschung.md) · [Security & Sleep](seite-sicherheit.md) · [Logging](seite-logging.md) · [Auctions](seite-auktionen.md) · **Bar and controls**
+Pages: [Overview](README.md) · [Start](seite-start.md) · [Ogame](seite-ogame.md) · [Logistic & Expedition](seite-logistik.md) · [Fleet & Farm](seite-farm.md) · [Rewards and boosters](seite-belohnungen.md) · [Build & Research](seite-bauforschung.md) · [Security & Sleep](seite-sicherheit.md) · [Logging](seite-logging.md) · **Bar and controls**
 
-Fields: [General](felder-allgemein.md) · [Logistic & Expedition](felder-logistik.md) · [Fleet & Farm](felder-farm.md) · [Rewards and boosters](felder-belohnungen.md) · [Build & Research (Brain)](felder-bauforschung.md) · [Security & Sleep](felder-sicherheit.md) · [Auctions](felder-auktionen.md)
+Fields: [General](felder-allgemein.md) · [Logistic & Expedition](felder-logistik.md) · [Fleet & Farm](felder-farm.md) · [Rewards and boosters](felder-belohnungen.md) · [Build & Research (Brain)](felder-bauforschung.md) · [Security & Sleep](felder-sicherheit.md)
 
 ---
 
@@ -39,7 +39,7 @@ On pages with a background picture (Start, Logistic&Expedition, Fleet&Farm, Buil
 
 ## Hide data
 
-A switch on many pages (Rewards, Auctions, Build&Research, Logging, config pages): replaces names, coordinates and other data with *****, for example for screenshots. The default comes from General.AnonymizeLogs (label there: Hide data); the switch on a page overrides it only in this browser.
+A switch on many pages (Rewards, Build&Research, Logging, config pages): replaces names, coordinates and other data with *****, for example for screenshots. The default comes from General.AnonymizeLogs (label there: Hide data); the switch on a page overrides it only in this browser.
 
 1. Set or remove the tick at Hide data; the state applies across pages.
 

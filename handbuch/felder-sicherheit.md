@@ -1,6 +1,6 @@
-Seiten: [Übersicht](README.md) · [Start](seite-start.md) · [Ogame](seite-ogame.md) · [Logistic & Expedition](seite-logistik.md) · [Fleet & Farm](seite-farm.md) · [Rewards and boosters](seite-belohnungen.md) · [Build & Research](seite-bauforschung.md) · [Security & Sleep](seite-sicherheit.md) · [Logging](seite-logging.md) · [Auktionen](seite-auktionen.md) · [Leiste und Bedienung](seite-bedienung.md)
+Seiten: [Übersicht](README.md) · [Start](seite-start.md) · [Ogame](seite-ogame.md) · [Logistic & Expedition](seite-logistik.md) · [Fleet & Farm](seite-farm.md) · [Rewards and boosters](seite-belohnungen.md) · [Build & Research](seite-bauforschung.md) · [Security & Sleep](seite-sicherheit.md) · [Logging](seite-logging.md) · [Leiste und Bedienung](seite-bedienung.md)
 
-Felder: [Allgemein](felder-allgemein.md) · [Logistic & Expedition](felder-logistik.md) · [Fleet & Farm](felder-farm.md) · [Rewards and boosters](felder-belohnungen.md) · [Build & Research (Brain)](felder-bauforschung.md) · **Security & Sleep** · [Auktionen](felder-auktionen.md)
+Felder: [Allgemein](felder-allgemein.md) · [Logistic & Expedition](felder-logistik.md) · [Fleet & Farm](felder-farm.md) · [Rewards and boosters](felder-belohnungen.md) · [Build & Research (Brain)](felder-bauforschung.md) · **Security & Sleep**
 
 ---
 
@@ -126,7 +126,7 @@ _Beschreibung noch englisch._
 
 `Experimental.GalaxyCache.Hunter.Spy.Origin` · Standard: **(leer)** · Text
 
-"Espionage on demand" on the Hunter page (spy buttons per player and for all watched players: planets and moons / planets / moons, option "Skip home planet"). `Origin` = starting planet or moon as `G:S:P:P` (planet) or `G:S:P:M` (moon); empty (default) = celestial with the most probes (also used when the starting point has no probes left). `WaitMinMs`/`WaitMaxMs` = random wait between two spy flights, default `300`/`400` (minimum 100). Probe count per flight comes from `AutoFarm.NumProbes`. With no free slot the bot waits 15 s and retries up to 8 times. Orders are dropped while the bot sleeps or is paused.
+"Espionage on demand" on the Hunter page (spy buttons per player and for all watched players: planets and moons / planets / moons). `Origin` = starting planet or moon as `G:S:P:P` (planet) or `G:S:P:M` (moon); empty (default) = celestial with the most probes (also used when the starting point has no probes left). `Nearest` = for every target the nearest own celestial that has enough probes (otherwise the nearest one with at least one probe); the probe stock is counted along, so a batch spreads over several celestials (choice "Nearest celestial with probes" on the Hunter page). `WaitMinMs`/`WaitMaxMs` = random wait between two spy flights, default `300`/`400` (minimum 100). Probe count per flight comes from `AutoFarm.NumProbes`. With no free slot the bot waits 15 s and retries up to 8 times. Orders are dropped while the bot sleeps or is paused.
 
 _Beschreibung noch englisch._
 
@@ -318,37 +318,37 @@ Wie alt ein Eintrag sein darf, damit Worker ihn statt einer Live-Abfrage nutzen 
 
 #### 6.121 Hintergrund-Scan: ganzes Universum (an) oder nur um meine Planeten (aus)
 
-`Experimental.GalaxyCache.ScanAll` · Standard: **ja** · Schalter · AN = jede Galaxie und jedes System, langsam, zuerst deine eigene Umgebung. „Systeme rund um jeden Planeten“ wird dann ignoriert. AUS = nur die Systeme rund um deine eigenen Planeten, so viele wie dort eingestellt
+`Experimental.GalaxyCache.ScanData.ScanAll` · Standard: **ja** · Schalter · AN = jede Galaxie und jedes System, langsam, zuerst deine eigene Umgebung. „Systeme rund um jeden Planeten“ wird dann ignoriert. AUS = nur die Systeme rund um deine eigenen Planeten, so viele wie dort eingestellt
 
 Der Hintergrund-Scan geht langsam alle Galaxien und Systeme durch, zuerst die Umgebung deiner eigenen Systeme, damit der Cache ein Gesamtbild liefert (Standard an). AUS = nur die Systeme rund um deine Planeten; dann gilt die Einstellung „Systeme rund um jeden Planeten“.
 
 #### 6.122 Scan ganzes Universum: Stunden pro Galaxie (nur wenn AN)
 
-`Experimental.GalaxyCache.HoursPerGalaxy` · Standard: **1** · Zahl · Die Pause zwischen Systemen ergibt sich daraus (1 = etwa 7 Sekunden). 0 = die Pausen unten nutzen
+`Experimental.GalaxyCache.ScanData.HoursPerGalaxy` · Standard: **1** · Zahl · Die Pause zwischen Systemen ergibt sich daraus (1 = etwa 7 Sekunden). 0 = die Pausen unten nutzen
 
 Vollscan: Zeitbudget je Galaxie. Die Pause zwischen zwei Systemen ergibt sich daraus (1 Stunde = etwa 7 Sekunden je System, 9 Galaxien = etwa 9 Stunden). 0 = die Pausen DelayMinSeconds / DelayMaxSeconds nutzen. Standard 1.
 
 #### 6.123 Scan ganzes Universum: wiederholen nach (Stunden) (nur wenn AN)
 
-`Experimental.GalaxyCache.FullScanIntervalHours` · Standard: **24** · Zahl · Jedes System wird höchstens so oft gescannt (24 = einmal am Tag)
+`Experimental.GalaxyCache.ScanData.FullScanIntervalHours` · Standard: **24** · Zahl · Jedes System wird höchstens so oft gescannt (24 = einmal am Tag)
 
 Vollscan: jedes System wird nach so vielen Stunden erneut gescannt. 24 = ein Vollscan pro Tag, beginnend an der Hauptwelt und nach außen. Standard 24.
 
 #### 6.124 Spielerliste aus der OGame-API lesen
 
-`Experimental.GalaxyCache.UseApi` · Standard: **ja** · Schalter · players.xml und highscore.xml: je eine Anfrage, keine Last im Spiel. Aus: stattdessen die Highscore-Seiten lesen
+`Experimental.GalaxyCache.ScanData.UseApi` · Standard: **ja** · Schalter · players.xml und highscore.xml: je eine Anfrage, keine Last im Spiel. Aus: stattdessen die Highscore-Seiten lesen
 
 Liest die Spielerliste (Status, Allianz, Rang) aus der öffentlichen OGame-API: players.xml und highscore.xml, je eine Anfrage, keine Last im Spiel. Der Host wird aus Universumsnummer und Sprache gebildet. Der API-Status kann nachhinken (ein zurückgekehrter Spieler bleibt eine Weile inaktiv markiert), deshalb entscheiden die Galaxie-Scans über den Status; die API liefert nur die Spielerliste und den Rang. Aus = stattdessen die Highscore-Seiten lesen. Standard an.
 
 #### 6.125 Spieler-Datenbank aus der Highscore
 
-`Experimental.GalaxyCache.UseHighscore` · Standard: **ja** · Schalter · Liest einmal am Tag die Highscore (Status i / I / gesperrt / Urlaub, Rang, Hauptwelt). Systeme inaktiver Spieler werden zuerst frisch gehalten
+`Experimental.GalaxyCache.ScanData.UseHighscore` · Standard: **ja** · Schalter · Liest einmal am Tag die Highscore (Status i / I / gesperrt / Urlaub, Rang, Hauptwelt). Systeme inaktiver Spieler werden zuerst frisch gehalten
 
 Liest einmal am Tag die Highscore in eine Spieler-Datenbank: Status (inaktiv i, lange inaktiv I, gesperrt, Urlaub), Rang, Allianz und Hauptwelt. Systeme mit inaktiven Spielern werden zuerst gescannt und frisch gehalten. Rang und Status korrigieren auch alte Cache-Einträge. Standard an.
 
 #### 6.126 Highscore lesen alle (Stunden)
 
-`Experimental.GalaxyCache.HighscoreIntervalHours` · Standard: **24** · Zahl
+`Experimental.GalaxyCache.ScanData.HighscoreIntervalHours` · Standard: **24** · Zahl
 
 Wie oft die Highscore gelesen wird (Standard 24 Stunden). Ein fehlgeschlagenes Lesen wird nach einer Stunde wiederholt.
 
@@ -360,7 +360,7 @@ AutoFarm nimmt seinen Scan aus dem Cache, solange der Eintrag nicht älter ist (
 
 #### 6.128 Systeme rund um jeden Planeten (gilt nur, wenn der Schalter oben AUS ist)
 
-`Experimental.GalaxyCache.RangeSystems` · Standard: **15** · Zahl · 15 = 15 Systeme links und rechts = 31 rund um jeden Planeten. Ohne Wirkung, solange der Scan des ganzen Universums an ist
+`Experimental.GalaxyCache.ScanData.RangeSystems` · Standard: **15** · Zahl · 15 = 15 Systeme links und rechts = 31 rund um jeden Planeten. Ohne Wirkung, solange der Scan des ganzen Universums an ist
 
 Gilt nur, wenn der Schalter „ganzes Universum“ (ScanAll) AUS ist: Der Hintergrund-Scan geht so viele Systeme links und rechts jedes eigenen Systems durch (Standard 15, also 31 Systeme rund um jeden Planeten). Bei ScanAll an ohne Wirkung.
 
@@ -368,31 +368,31 @@ Gilt nur, wenn der Schalter „ganzes Universum“ (ScanAll) AUS ist: Der Hinter
 
 #### 6.129 Leere Systeme gültig für (Stunden)
 
-`Experimental.GalaxyCache.EmptyMaxAgeHours` · Standard: **72** · Zahl · Systeme ohne Planeten werden vor Ablauf dieser Zeit nicht erneut gescannt
+`Experimental.GalaxyCache.ScanData.EmptyMaxAgeHours` · Standard: **72** · Zahl · Systeme ohne Planeten werden vor Ablauf dieser Zeit nicht erneut gescannt
 
 Systeme ohne Planeten werden erst nach so vielen Stunden erneut gescannt (Standard 72).
 
 #### 6.130 Eigene Systeme: mindestens alle (Minuten) scannen
 
-`Experimental.GalaxyCache.OwnSystemsEveryMinutes` · Standard: **60** · Zahl · Systeme mit eigenen Planeten oder Monden werden so oft neu gescannt, vor allen anderen Scans (0 = aus)
+`Experimental.GalaxyCache.ScanData.OwnSystemsEveryMinutes` · Standard: **60** · Zahl · Systeme mit eigenen Planeten oder Monden werden so oft neu gescannt, vor allen anderen Scans (0 = aus)
 
 Systeme mit eigenen Planeten und Monden werden mindestens so oft neu gescannt, vor allen anderen Hintergrund-Scans (Standard 60 Minuten, 0 = aus). Eine Raidkolonie neben dir fällt so innerhalb der Stunde auf statt erst beim 24-Stunden-Vollscan.
 
 #### 6.131 Eigene Systeme: zusätzlich so viele Systeme links und rechts
 
-`Experimental.GalaxyCache.OwnSystemsRange` · Standard: **0** · Zahl · 0 = nur die Systeme mit eigenen Planeten und Monden
+`Experimental.GalaxyCache.ScanData.OwnSystemsRange` · Standard: **0** · Zahl · 0 = nur die Systeme mit eigenen Planeten und Monden
 
 Zusätzlich so viele Systeme links und rechts jedes eigenen Systems scannen (Standard 0 = nur das System selbst). 1 = auch die beiden Nachbarn.
 
 #### 6.132 Pause zwischen Hintergrund-Abfragen, von (Sekunden)
 
-`Experimental.GalaxyCache.DelayMinSeconds` · Standard: **4** · Zahl
+`Experimental.GalaxyCache.ScanData.DelayMinSeconds` · Standard: **4** · Zahl
 
 Kürzeste Pause zwischen zwei Hintergrund-Abfragen (Standard 4 Sekunden).
 
 #### 6.133 Pause zwischen Hintergrund-Abfragen, bis (Sekunden)
 
-`Experimental.GalaxyCache.DelayMaxSeconds` · Standard: **8** · Zahl
+`Experimental.GalaxyCache.ScanData.DelayMaxSeconds` · Standard: **8** · Zahl
 
 Längste Pause zwischen zwei Hintergrund-Abfragen (Standard 8 Sekunden).
 
@@ -410,13 +410,13 @@ AutoFarm nimmt seinen Scan nach inaktiven Zielen aus dem Cache, solange der Eint
 
 #### 6.136 Erkannte Ereignisse ins Log schreiben
 
-`Experimental.GalaxyCache.Events` · Standard: **ja** · Schalter · Neue Kolonie, Planet weg, neuer Mond, Statuswechsel, Umzug
+`Experimental.GalaxyCache.ScanData.Events` · Standard: **ja** · Schalter · Neue Kolonie, Planet weg, neuer Mond, Statuswechsel, Umzug
 
 Erkannte Änderungen ins Log schreiben: neue Kolonie, Planet weg, neuer Mond, Statuswechsel, Umzug (Standard an).
 
 #### 6.137 Per Telegram / Discord warnen
 
-`Experimental.GalaxyCache.Telegram` · Standard: **ja** · Schalter · Bei neuen Kolonien und Umzügen anderer Spieler
+`Experimental.GalaxyCache.ScanData.Telegram` · Standard: **ja** · Schalter · Bei neuen Kolonien und Umzügen anderer Spieler
 
 Neue Kolonien und Umzüge anderer Spieler per Telegram / Discord melden (Standard an). Andere Ereignisse stehen nur im Log.
 

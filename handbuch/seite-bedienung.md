@@ -1,6 +1,6 @@
-Seiten: [Übersicht](README.md) · [Start](seite-start.md) · [Ogame](seite-ogame.md) · [Logistic & Expedition](seite-logistik.md) · [Fleet & Farm](seite-farm.md) · [Rewards and boosters](seite-belohnungen.md) · [Build & Research](seite-bauforschung.md) · [Security & Sleep](seite-sicherheit.md) · [Logging](seite-logging.md) · [Auktionen](seite-auktionen.md) · **Leiste und Bedienung**
+Seiten: [Übersicht](README.md) · [Start](seite-start.md) · [Ogame](seite-ogame.md) · [Logistic & Expedition](seite-logistik.md) · [Fleet & Farm](seite-farm.md) · [Rewards and boosters](seite-belohnungen.md) · [Build & Research](seite-bauforschung.md) · [Security & Sleep](seite-sicherheit.md) · [Logging](seite-logging.md) · **Leiste und Bedienung**
 
-Felder: [Allgemein](felder-allgemein.md) · [Logistic & Expedition](felder-logistik.md) · [Fleet & Farm](felder-farm.md) · [Rewards and boosters](felder-belohnungen.md) · [Build & Research (Brain)](felder-bauforschung.md) · [Security & Sleep](felder-sicherheit.md) · [Auktionen](felder-auktionen.md)
+Felder: [Allgemein](felder-allgemein.md) · [Logistic & Expedition](felder-logistik.md) · [Fleet & Farm](felder-farm.md) · [Rewards and boosters](felder-belohnungen.md) · [Build & Research (Brain)](felder-bauforschung.md) · [Security & Sleep](felder-sicherheit.md)
 
 ---
 
@@ -39,7 +39,7 @@ Auf Seiten mit Hintergrundbild (Start, Logistic&Expedition, Fleet&Farm, Bau&Fors
 
 ## Daten verbergen
 
-Schalter auf vielen Seiten (Belohnungen, Auktionen, Bau&Forschung, Logging, Config-Seiten): ersetzt Namen, Koordinaten und andere Daten durch *****, zum Beispiel für Screenshots. Die Vorgabe kommt aus General.AnonymizeLogs (Beschriftung dort: Daten verbergen); der Schalter auf einer Seite überschreibt sie nur in diesem Browser.
+Schalter auf vielen Seiten (Belohnungen, Bau&Forschung, Logging, Config-Seiten): ersetzt Namen, Koordinaten und andere Daten durch *****, zum Beispiel für Screenshots. Die Vorgabe kommt aus General.AnonymizeLogs (Beschriftung dort: Daten verbergen); der Schalter auf einer Seite überschreibt sie nur in diesem Browser.
 
 1. Haken bei Daten verbergen setzen oder entfernen; der Zustand gilt seitenübergreifend.
 

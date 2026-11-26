@@ -1,6 +1,6 @@
-Pages: **Overview** · [Start](seite-start.md) · [Ogame](seite-ogame.md) · [Logistic & Expedition](seite-logistik.md) · [Fleet & Farm](seite-farm.md) · [Rewards and boosters](seite-belohnungen.md) · [Build & Research](seite-bauforschung.md) · [Security & Sleep](seite-sicherheit.md) · [Logging](seite-logging.md) · [Auctions](seite-auktionen.md) · [Bar and controls](seite-bedienung.md)
+Pages: **Overview** · [Start](seite-start.md) · [Ogame](seite-ogame.md) · [Logistic & Expedition](seite-logistik.md) · [Fleet & Farm](seite-farm.md) · [Rewards and boosters](seite-belohnungen.md) · [Build & Research](seite-bauforschung.md) · [Security & Sleep](seite-sicherheit.md) · [Logging](seite-logging.md) · [Bar and controls](seite-bedienung.md)
 
-Fields: [General](felder-allgemein.md) · [Logistic & Expedition](felder-logistik.md) · [Fleet & Farm](felder-farm.md) · [Rewards and boosters](felder-belohnungen.md) · [Build & Research (Brain)](felder-bauforschung.md) · [Security & Sleep](felder-sicherheit.md) · [Auctions](felder-auktionen.md)
+Fields: [General](felder-allgemein.md) · [Logistic & Expedition](felder-logistik.md) · [Fleet & Farm](felder-farm.md) · [Rewards and boosters](felder-belohnungen.md) · [Build & Research (Brain)](felder-bauforschung.md) · [Security & Sleep](felder-sicherheit.md)
 
 ---
 
@@ -18,15 +18,13 @@ Guide to the B4dLion interface: first every page with its tabs and how to use it
 - [Build & Research](seite-bauforschung.md): Here you control what the bot builds and researches: mines, lifeform buildings (LF), research, ships and defen
 - [Security & Sleep](seite-sicherheit.md): Here you set when the bot sleeps and what it does meanwhile, how it reacts to attacks and espionage and how fl
 - [Logging](seite-logging.md): Shows the bot's log live: new lines appear automatically, you can filter by instance, sender, level, date and 
-- [Auctions](seite-auktionen.md): Shows the result of every auction the bot has seen: won or lost, the highest bid and your last bid. Above it a
 - [Bar and controls](seite-bedienung.md): The bar at the top is on every page and leads to all areas. To its right are the controls for log, language an
 
 ## Fields
 
 - [General](felder-allgemein.md): 23 fields
-- [Logistic & Expedition](felder-logistik.md): 47 fields
+- [Logistic & Expedition](felder-logistik.md): 49 fields
 - [Fleet & Farm](felder-farm.md): 108 fields
 - [Rewards and boosters](felder-belohnungen.md): 8 fields
-- [Build & Research (Brain)](felder-bauforschung.md): 126 fields
+- [Build & Research (Brain)](felder-bauforschung.md): 125 fields
 - [Security & Sleep](felder-sicherheit.md): 108 fields
-- [Auctions](felder-auktionen.md): 41 fields

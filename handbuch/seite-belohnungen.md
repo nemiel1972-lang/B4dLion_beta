@@ -1,6 +1,6 @@
-Seiten: [Übersicht](README.md) · [Start](seite-start.md) · [Ogame](seite-ogame.md) · [Logistic & Expedition](seite-logistik.md) · [Fleet & Farm](seite-farm.md) · **Rewards and boosters** · [Build & Research](seite-bauforschung.md) · [Security & Sleep](seite-sicherheit.md) · [Logging](seite-logging.md) · [Auktionen](seite-auktionen.md) · [Leiste und Bedienung](seite-bedienung.md)
+Seiten: [Übersicht](README.md) · [Start](seite-start.md) · [Ogame](seite-ogame.md) · [Logistic & Expedition](seite-logistik.md) · [Fleet & Farm](seite-farm.md) · **Rewards and boosters** · [Build & Research](seite-bauforschung.md) · [Security & Sleep](seite-sicherheit.md) · [Logging](seite-logging.md) · [Leiste und Bedienung](seite-bedienung.md)
 
-Felder: [Allgemein](felder-allgemein.md) · [Logistic & Expedition](felder-logistik.md) · [Fleet & Farm](felder-farm.md) · [Rewards and boosters](felder-belohnungen.md) · [Build & Research (Brain)](felder-bauforschung.md) · [Security & Sleep](felder-sicherheit.md) · [Auktionen](felder-auktionen.md)
+Felder: [Allgemein](felder-allgemein.md) · [Logistic & Expedition](felder-logistik.md) · [Fleet & Farm](felder-farm.md) · [Rewards and boosters](felder-belohnungen.md) · [Build & Research (Brain)](felder-bauforschung.md) · [Security & Sleep](felder-sicherheit.md)
 
 ---
 
@@ -8,7 +8,7 @@ Felder: [Allgemein](felder-allgemein.md) · [Logistic & Expedition](felder-logis
 
 _Menüpunkt: Belohnungen und Booster_
 
-Die Seite bündelt alles rund um Belohnungen: die Aufgaben der Universums-Belohnungen (Tritium) samt Einordnung durch den Bot, Rangbelohnungen, Booster, Auktionen, Direktiven (Tutorial im Spiel) und die Asteroiden-Jagd. Die Reiter Aufgaben und Auktionen zeigen nur Daten; die übrigen Reiter öffnen die zugehörigen Config-Blöcke direkt in der Seite. Oben wählst du bei mehreren Instanzen die Instanz und klickst Öffnen.
+Die Seite bündelt alles rund um Belohnungen: die Aufgaben der Universums-Belohnungen (Tritium) samt Einordnung durch den Bot, Rangbelohnungen, Booster, Direktiven (Tutorial im Spiel) und die Asteroiden-Jagd. Der Reiter Aufgaben zeigt nur Daten; die übrigen Reiter öffnen die zugehörigen Config-Blöcke direkt in der Seite. Oben wählst du bei mehreren Instanzen die Instanz und klickst Öffnen.
 
 ![Rewards and boosters](img/bild-Rewards.png)
 
@@ -40,12 +40,6 @@ Felder: [Rewards and boosters](felder-belohnungen.md), [Build & Research (Brain)
 
 Felder: [Build & Research (Brain)](felder-bauforschung.md)
 
-## Auktionen
-
-Zeigt die Auktionen-Seite eingebettet (siehe Seite Auktionen). Der Auktions-Bieter wird nur auf Nachfrage freigegeben.
-
-Felder: [Auktionen](felder-auktionen.md)
-
 ## Import/Export und Tagesangebot
 
 Öffnet laut Code nur die Option BuyOfferOfTheDay aus dem Block Brain: kauft das tägliche Händlerangebot.
@@ -73,7 +67,6 @@ Felder: [Build & Research (Brain)](felder-bauforschung.md)
 
 ## Hinweise
 
-- nach dem Anlegen den Bot neu starten. Der erste Mitschnitt läuft direkt nach dem Start, danach alle 4 Stunden.
 - Verteidigung und Schiffe werden immer auf der Heimatwelt gebaut, Gebäude auf dem Planeten mit der günstigsten nächsten Stufe.
 - Aufgaben mit Dunkler Materie, Items oder Kauf bleiben immer manuell.
 - Rangbelohnungen werden nur abgeholt, wenn Automatisches Abholen an ist, der Rang erreicht ist und du eine Belohnung gewählt hast. Bei einem neuen Event verfällt eine gespeicherte Wahl (neu wählen).

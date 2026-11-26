@@ -1,6 +1,6 @@
-Pages: [Overview](README.md) · [Start](seite-start.md) · [Ogame](seite-ogame.md) · [Logistic & Expedition](seite-logistik.md) · [Fleet & Farm](seite-farm.md) · [Rewards and boosters](seite-belohnungen.md) · [Build & Research](seite-bauforschung.md) · [Security & Sleep](seite-sicherheit.md) · [Logging](seite-logging.md) · [Auctions](seite-auktionen.md) · [Bar and controls](seite-bedienung.md)
+Pages: [Overview](README.md) · [Start](seite-start.md) · [Ogame](seite-ogame.md) · [Logistic & Expedition](seite-logistik.md) · [Fleet & Farm](seite-farm.md) · [Rewards and boosters](seite-belohnungen.md) · [Build & Research](seite-bauforschung.md) · [Security & Sleep](seite-sicherheit.md) · [Logging](seite-logging.md) · [Bar and controls](seite-bedienung.md)
 
-Fields: [General](felder-allgemein.md) · [Logistic & Expedition](felder-logistik.md) · **Fleet & Farm** · [Rewards and boosters](felder-belohnungen.md) · [Build & Research (Brain)](felder-bauforschung.md) · [Security & Sleep](felder-sicherheit.md) · [Auctions](felder-auktionen.md)
+Fields: [General](felder-allgemein.md) · [Logistic & Expedition](felder-logistik.md) · **Fleet & Farm** · [Rewards and boosters](felder-belohnungen.md) · [Build & Research (Brain)](felder-bauforschung.md) · [Security & Sleep](felder-sicherheit.md)
 
 ---
 
@@ -96,13 +96,13 @@ Only attack an undefended target if there is at least this much loot to take awa
 
 The same minimum for targets that have ships or defence. Set it higher than the value above, because these fights can cost you ships.
 
-#### 6.015 Minimum player rank
+#### 6.015 Maximum player rank
 
-`AutoFarm.MinimumPlayerRank` · Default: **3000** · Number · Ignore players ranked better than this
+`AutoFarm.MinimumPlayerRank` · Default: **3000** · Number · Ignore players ranked below this
 
-Players with a better rank (a smaller number) than this are skipped.
+Players ranked below this (a larger rank number) are skipped. Only players up to this rank are farmed.
 
-**Example:** 3000 = a player on rank 1500 is skipped, one on rank 5000 is farmed.
+**Example:** 3000 = a player on rank 1500 is farmed, one on rank 5000 is skipped.
 
 #### 6.016 Max flight time
 

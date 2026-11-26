@@ -1,6 +1,6 @@
-Seiten: [Übersicht](README.md) · [Start](seite-start.md) · [Ogame](seite-ogame.md) · [Logistic & Expedition](seite-logistik.md) · **Fleet & Farm** · [Rewards and boosters](seite-belohnungen.md) · [Build & Research](seite-bauforschung.md) · [Security & Sleep](seite-sicherheit.md) · [Logging](seite-logging.md) · [Auktionen](seite-auktionen.md) · [Leiste und Bedienung](seite-bedienung.md)
+Seiten: [Übersicht](README.md) · [Start](seite-start.md) · [Ogame](seite-ogame.md) · [Logistic & Expedition](seite-logistik.md) · **Fleet & Farm** · [Rewards and boosters](seite-belohnungen.md) · [Build & Research](seite-bauforschung.md) · [Security & Sleep](seite-sicherheit.md) · [Logging](seite-logging.md) · [Leiste und Bedienung](seite-bedienung.md)
 
-Felder: [Allgemein](felder-allgemein.md) · [Logistic & Expedition](felder-logistik.md) · [Fleet & Farm](felder-farm.md) · [Rewards and boosters](felder-belohnungen.md) · [Build & Research (Brain)](felder-bauforschung.md) · [Security & Sleep](felder-sicherheit.md) · [Auktionen](felder-auktionen.md)
+Felder: [Allgemein](felder-allgemein.md) · [Logistic & Expedition](felder-logistik.md) · [Fleet & Farm](felder-farm.md) · [Rewards and boosters](felder-belohnungen.md) · [Build & Research (Brain)](felder-bauforschung.md) · [Security & Sleep](felder-sicherheit.md)
 
 ---
 
@@ -49,7 +49,7 @@ Beobachtet Spieler anhand der Galaxie-Ansicht: Der Hunter liest in jeder Prüfun
 
 1. 'Hunter active' setzen, Prüfintervall (min. 3 Minuten) eintragen und 'Save' klicken.
 2. Spielername eintragen und '+ Watch' klicken, um einen Spieler zu beobachten.
-3. Spy-Knöpfe: Planeten und Monde, nur Planeten, nur Monde (für alle beobachteten Spieler oder je Zeile); Haken 'Skip home planet'.
+3. Spy-Knöpfe: Planeten und Monde, nur Planeten, nur Monde (für alle beobachteten Spieler oder je Zeile).
 4. Angriffslauf je Position (Schwert-Symbol): spioniert und sendet einen Angriff nur, wenn Geleitschutz-, Gewinn- und Flottenprüfung bestehen.
 5. Je Spieler lassen sich Benachrichtigungen setzen: Timer, Urlaubsmodus, Sperre.
 

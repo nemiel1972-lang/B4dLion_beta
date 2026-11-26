@@ -1,6 +1,6 @@
-Pages: [Overview](README.md) · [Start](seite-start.md) · [Ogame](seite-ogame.md) · [Logistic & Expedition](seite-logistik.md) · [Fleet & Farm](seite-farm.md) · **Rewards and boosters** · [Build & Research](seite-bauforschung.md) · [Security & Sleep](seite-sicherheit.md) · [Logging](seite-logging.md) · [Auctions](seite-auktionen.md) · [Bar and controls](seite-bedienung.md)
+Pages: [Overview](README.md) · [Start](seite-start.md) · [Ogame](seite-ogame.md) · [Logistic & Expedition](seite-logistik.md) · [Fleet & Farm](seite-farm.md) · **Rewards and boosters** · [Build & Research](seite-bauforschung.md) · [Security & Sleep](seite-sicherheit.md) · [Logging](seite-logging.md) · [Bar and controls](seite-bedienung.md)
 
-Fields: [General](felder-allgemein.md) · [Logistic & Expedition](felder-logistik.md) · [Fleet & Farm](felder-farm.md) · [Rewards and boosters](felder-belohnungen.md) · [Build & Research (Brain)](felder-bauforschung.md) · [Security & Sleep](felder-sicherheit.md) · [Auctions](felder-auktionen.md)
+Fields: [General](felder-allgemein.md) · [Logistic & Expedition](felder-logistik.md) · [Fleet & Farm](felder-farm.md) · [Rewards and boosters](felder-belohnungen.md) · [Build & Research (Brain)](felder-bauforschung.md) · [Security & Sleep](felder-sicherheit.md)
 
 ---
 
@@ -8,7 +8,7 @@ Fields: [General](felder-allgemein.md) · [Logistic & Expedition](felder-logisti
 
 _Menu item: Rewards and boosters_
 
-The page bundles everything about rewards: the tasks of the universe rewards (Tritium) with the bot's assessment, rank rewards, boosters, auctions, directives (in-game tutorial) and the asteroid hunt. The Tasks and Auctions tabs only show data; the other tabs open the matching config blocks right in the page. With several instances you choose the instance at the top and click Open.
+The page bundles everything about rewards: the tasks of the universe rewards (Tritium) with the bot's assessment, rank rewards, boosters, directives (in-game tutorial) and the asteroid hunt. The Tasks tab only shows data; the other tabs open the matching config blocks right in the page. With several instances you choose the instance at the top and click Open.
 
 ![Rewards and boosters](img/bild-Rewards.png)
 
@@ -40,12 +40,6 @@ Opens the KeepBoosters option of the Brain block: keep resource boosters running
 
 Fields: [Build & Research (Brain)](felder-bauforschung.md)
 
-## Auctions
-
-Shows the Auctions page embedded (see the Auctions page). The auction bidder is only released on request.
-
-Fields: [Auctions](felder-auktionen.md)
-
 ## Import/Export and daily offer
 
 According to the code this only opens the BuyOfferOfTheDay option of the Brain block: buys the daily trader offer.
@@ -73,7 +67,6 @@ Opens the AsteroidHunt block (in Testing): once per game day a ship attacks the 
 
 ## Notes
 
-- after creating it, restart the bot. The first capture runs right after the start, then every 4 hours.
 - Defence and ships are always built on the home world, buildings on the planet with the cheapest next level.
 - Tasks with Dark Matter, items or purchases always stay manual.
 - Rank rewards are only collected if Automatic collection is on, the rank is reached and you have chosen a reward. With a new event a saved choice expires (choose again).

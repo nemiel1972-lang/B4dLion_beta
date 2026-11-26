@@ -1,6 +1,6 @@
-Seiten: [Übersicht](README.md) · [Start](seite-start.md) · [Ogame](seite-ogame.md) · [Logistic & Expedition](seite-logistik.md) · [Fleet & Farm](seite-farm.md) · [Rewards and boosters](seite-belohnungen.md) · [Build & Research](seite-bauforschung.md) · [Security & Sleep](seite-sicherheit.md) · [Logging](seite-logging.md) · [Auktionen](seite-auktionen.md) · [Leiste und Bedienung](seite-bedienung.md)
+Seiten: [Übersicht](README.md) · [Start](seite-start.md) · [Ogame](seite-ogame.md) · [Logistic & Expedition](seite-logistik.md) · [Fleet & Farm](seite-farm.md) · [Rewards and boosters](seite-belohnungen.md) · [Build & Research](seite-bauforschung.md) · [Security & Sleep](seite-sicherheit.md) · [Logging](seite-logging.md) · [Leiste und Bedienung](seite-bedienung.md)
 
-Felder: [Allgemein](felder-allgemein.md) · **Logistic & Expedition** · [Fleet & Farm](felder-farm.md) · [Rewards and boosters](felder-belohnungen.md) · [Build & Research (Brain)](felder-bauforschung.md) · [Security & Sleep](felder-sicherheit.md) · [Auktionen](felder-auktionen.md)
+Felder: [Allgemein](felder-allgemein.md) · **Logistic & Expedition** · [Fleet & Farm](felder-farm.md) · [Rewards and boosters](felder-belohnungen.md) · [Build & Research (Brain)](felder-bauforschung.md) · [Security & Sleep](felder-sicherheit.md)
 
 ---
 
@@ -8,7 +8,7 @@ Felder: [Allgemein](felder-allgemein.md) · **Logistic & Expedition** · [Fleet 
 
 Expeditionen, Kolonisieren und Discovery.
 
-47 Felder, so wie die B4dLion-Oberfläche sie zeigt (Nummer = Feldnummer vor dem Feldnamen).
+49 Felder, so wie die B4dLion-Oberfläche sie zeigt (Nummer = Feldnummer vor dem Feldnamen).
 
 ![Logistic & Expedition](img/bild-Expeditions.png)
 
@@ -176,23 +176,37 @@ Längste zusätzliche Pause in Sekunden nach der ersten Rückkehr vor der nächs
 
 #### 5.032 Aktiv
 
-`Expeditions.SleepWave.Active` · Standard: **nein** · Schalter · Expeditionswelle, die um das Aufwachen zurückkommt
+`Expeditions.SleepWave.Active` · Standard: **nein** · Schalter · Expeditionswelle, die um das Aufwachen zurückkommt. Ohne System-Split fliegt jede Flotte ins eigene System; die Rückkehr kann selbst bei 10 % deutlich zu früh sein.
 
 Eine zusätzliche Expeditionswelle kurz bevor der Bot schlafen geht.
 
 #### 5.033 Rückkehr um
 
-`Expeditions.SleepWave.ReturnAt` · Standard: **„WakeUp+15“** · Text · HH:mm, WakeUp oder WakeUp+15 (Minuten); leer = feste Geschwindigkeit
+`Expeditions.SleepWave.ReturnAt` · Standard: **„WakeUp+15“** · Text · Wenn gesetzt, plant der Bot Zielsystem und Geschwindigkeit passend zur Rückkehrzeit; Feld 5.34 wird ignoriert. Leer = feste Geschwindigkeit aus Feld 5.34.
 
-Zeit, zu der die Welle zurück sein soll.
+Wenn gesetzt, plant der Bot Zielsystem und Geschwindigkeit passend zu dieser Rückkehrzeit. Die Ersatzgeschwindigkeit aus Feld 5.34 wird dann ignoriert. Leer = feste Geschwindigkeit aus Feld 5.34.
 
 **Beispiel:** WakeUp+15 = 15 Minuten nach dem Aufwachen.
 
 #### 5.034 Geschwindigkeit (Ersatz)
 
-`Expeditions.SleepWave.SpeedPercent` · Standard: **50** · Zahl · Wird genutzt, wenn ReturnAt leer ist
+`Expeditions.SleepWave.SpeedPercent` · Standard: **50** · Zahl · Feste Geschwindigkeit nur, wenn „Rückkehr um“ leer ist; sonst wird dieses Feld ignoriert (10 bis 100 in 10er-Schritten).
 
-Fluggeschwindigkeit der Welle, wenn keine Rückkehrzeit gesetzt ist (10 bis 100 in 10er-Schritten).
+Feste Fluggeschwindigkeit, nur wenn „Rückkehr um“ leer ist. Ist eine Rückkehrzeit gesetzt, wird dieses Feld ignoriert (10 bis 100 in 10er-Schritten).
+
+#### 5.042 Systeme aufteilen
+
+`Expeditions.SleepWave.SplitSystems.Active` · Standard: **nein** · Schalter · Eigene Systemaufteilung für die Schlafwelle, unabhängig von der Tages-Einstellung
+
+Eigene Systemaufteilung für die Schlafwelle aktivieren. Unabhängig von der Tages-Einstellung.
+
+#### 5.043 Umkreis (Systeme)
+
+`Expeditions.SleepWave.SplitSystems.Range` · Standard: **3** · Zahl · Systeme links und rechts vom Ursprung, die die Schlafwelle verwenden darf
+
+Systeme links und rechts vom Ursprung, die die Schlafwelle als Expeditionsziel verwenden darf.
+
+**Beispiel:** 3 = bis zu 3 Systeme in jede Richtung.
 
 ## AutoDiscovery
 

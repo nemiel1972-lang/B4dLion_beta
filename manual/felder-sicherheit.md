@@ -1,6 +1,6 @@
-Pages: [Overview](README.md) · [Start](seite-start.md) · [Ogame](seite-ogame.md) · [Logistic & Expedition](seite-logistik.md) · [Fleet & Farm](seite-farm.md) · [Rewards and boosters](seite-belohnungen.md) · [Build & Research](seite-bauforschung.md) · [Security & Sleep](seite-sicherheit.md) · [Logging](seite-logging.md) · [Auctions](seite-auktionen.md) · [Bar and controls](seite-bedienung.md)
+Pages: [Overview](README.md) · [Start](seite-start.md) · [Ogame](seite-ogame.md) · [Logistic & Expedition](seite-logistik.md) · [Fleet & Farm](seite-farm.md) · [Rewards and boosters](seite-belohnungen.md) · [Build & Research](seite-bauforschung.md) · [Security & Sleep](seite-sicherheit.md) · [Logging](seite-logging.md) · [Bar and controls](seite-bedienung.md)
 
-Fields: [General](felder-allgemein.md) · [Logistic & Expedition](felder-logistik.md) · [Fleet & Farm](felder-farm.md) · [Rewards and boosters](felder-belohnungen.md) · [Build & Research (Brain)](felder-bauforschung.md) · **Security & Sleep** · [Auctions](felder-auktionen.md)
+Fields: [General](felder-allgemein.md) · [Logistic & Expedition](felder-logistik.md) · [Fleet & Farm](felder-farm.md) · [Rewards and boosters](felder-belohnungen.md) · [Build & Research (Brain)](felder-bauforschung.md) · **Security & Sleep**
 
 ---
 
@@ -118,7 +118,7 @@ Own list, separate from `GalaxyCache.Track.Players`. Entries `{Id, Name, Paused,
 
 `Experimental.GalaxyCache.Hunter.Spy.Origin` · Default: **(empty)** · Text
 
-"Espionage on demand" on the Hunter page (spy buttons per player and for all watched players: planets and moons / planets / moons, option "Skip home planet"). `Origin` = starting planet or moon as `G:S:P:P` (planet) or `G:S:P:M` (moon); empty (default) = celestial with the most probes (also used when the starting point has no probes left). `WaitMinMs`/`WaitMaxMs` = random wait between two spy flights, default `300`/`400` (minimum 100). Probe count per flight comes from `AutoFarm.NumProbes`. With no free slot the bot waits 15 s and retries up to 8 times. Orders are dropped while the bot sleeps or is paused.
+"Espionage on demand" on the Hunter page (spy buttons per player and for all watched players: planets and moons / planets / moons). `Origin` = starting planet or moon as `G:S:P:P` (planet) or `G:S:P:M` (moon); empty (default) = celestial with the most probes (also used when the starting point has no probes left). `Nearest` = for every target the nearest own celestial that has enough probes (otherwise the nearest one with at least one probe); the probe stock is counted along, so a batch spreads over several celestials (choice "Nearest celestial with probes" on the Hunter page). `WaitMinMs`/`WaitMaxMs` = random wait between two spy flights, default `300`/`400` (minimum 100). Probe count per flight comes from `AutoFarm.NumProbes`. With no free slot the bot waits 15 s and retries up to 8 times. Orders are dropped while the bot sleeps or is paused.
 
 #### 6.148 WaitMinMs
 
@@ -308,37 +308,37 @@ How old an entry may be so that workers use it instead of a live query (default 
 
 #### 6.121 Background scan: whole universe (on) or only around my planets (off)
 
-`Experimental.GalaxyCache.ScanAll` · Default: **yes** · Switch · ON = every galaxy and system, slowly, your own surroundings first. The setting "Systems around each planet" is ignored then. OFF = only the systems around your own planets, as many as set there
+`Experimental.GalaxyCache.ScanData.ScanAll` · Default: **yes** · Switch · ON = every galaxy and system, slowly, your own surroundings first. The setting "Systems around each planet" is ignored then. OFF = only the systems around your own planets, as many as set there
 
 The background scan walks all galaxies and systems slowly, starting with the surroundings of your own systems, so the cache gives a complete picture (default on). Off = only the systems around your planets (see Systems around each planet).
 
 #### 6.122 Whole-universe scan: hours per galaxy (only when ON)
 
-`Experimental.GalaxyCache.HoursPerGalaxy` · Default: **1** · Number · The pause between systems follows from this (1 = about 7 seconds). 0 = use the pauses below
+`Experimental.GalaxyCache.ScanData.HoursPerGalaxy` · Default: **1** · Number · The pause between systems follows from this (1 = about 7 seconds). 0 = use the pauses below
 
 Full scan: time budget per galaxy. The pause between two systems is calculated from it (1 hour = about 7 seconds per system, 9 galaxies = about 9 hours). 0 = use the pauses DelayMinSeconds / DelayMaxSeconds. Default 1.
 
 #### 6.123 Whole-universe scan: repeat after (hours) (only when ON)
 
-`Experimental.GalaxyCache.FullScanIntervalHours` · Default: **24** · Number · Every system is scanned at most this often (24 = once a day)
+`Experimental.GalaxyCache.ScanData.FullScanIntervalHours` · Default: **24** · Number · Every system is scanned at most this often (24 = once a day)
 
 Full scan: every system is scanned again after this many hours. 24 = one full scan per day, starting at your home world and moving outwards. Default 24.
 
 #### 6.124 Read the player list from the OGame API
 
-`Experimental.GalaxyCache.UseApi` · Default: **yes** · Switch · players.xml and highscore.xml: one request each, no load in the game. Off: read the highscore pages instead
+`Experimental.GalaxyCache.ScanData.UseApi` · Default: **yes** · Switch · players.xml and highscore.xml: one request each, no load in the game. Off: read the highscore pages instead
 
 Reads the player list (status, alliance, rank) from the public OGame API: players.xml and highscore.xml, one request each, no load in the game. The host is derived from the universe number and language. The API status can lag behind (a returned player may stay marked inactive for a while), so the galaxy scans decide the status; the API only supplies the player list and the rank. Off = read the highscore pages instead. Default on.
 
 #### 6.125 Player database from the highscore
 
-`Experimental.GalaxyCache.UseHighscore` · Default: **yes** · Switch · Reads the highscore once a day (status i / I / banned / vacation, rank, home world). Systems of inactive players are kept fresh first
+`Experimental.GalaxyCache.ScanData.UseHighscore` · Default: **yes** · Switch · Reads the highscore once a day (status i / I / banned / vacation, rank, home world). Systems of inactive players are kept fresh first
 
 Reads the highscore once a day into a player database: status (inactive i, long inactive I, banned, vacation), rank, alliance and home world. Systems with inactive players are scanned first and kept fresh. The rank and status also correct old cache entries. Default on.
 
 #### 6.126 Read the highscore every (hours)
 
-`Experimental.GalaxyCache.HighscoreIntervalHours` · Default: **24** · Number
+`Experimental.GalaxyCache.ScanData.HighscoreIntervalHours` · Default: **24** · Number
 
 How often the highscore is read (default 24 hours). A failed read is retried after an hour.
 
@@ -350,7 +350,7 @@ AutoFarm takes its scan from the cache while the entry is no older than this (de
 
 #### 6.128 Systems around each planet (used only when the switch above is OFF)
 
-`Experimental.GalaxyCache.RangeSystems` · Default: **15** · Number · 15 = 15 systems left and right = 31 around each planet. No effect while the whole-universe scan is on
+`Experimental.GalaxyCache.ScanData.RangeSystems` · Default: **15** · Number · 15 = 15 systems left and right = 31 around each planet. No effect while the whole-universe scan is on
 
 Used only when the whole-universe scan (ScanAll) is OFF: the background scan walks this many systems left and right of every own system (default 15, i.e. 31 systems around each planet). No effect while ScanAll is on.
 
@@ -358,31 +358,31 @@ Used only when the whole-universe scan (ScanAll) is OFF: the background scan wal
 
 #### 6.129 Empty systems valid for (hours)
 
-`Experimental.GalaxyCache.EmptyMaxAgeHours` · Default: **72** · Number · Systems without any planet are not scanned again before this time
+`Experimental.GalaxyCache.ScanData.EmptyMaxAgeHours` · Default: **72** · Number · Systems without any planet are not scanned again before this time
 
 Systems without any planet are scanned again only after this many hours (default 72).
 
 #### 6.130 Own systems: scan at least every (minutes)
 
-`Experimental.GalaxyCache.OwnSystemsEveryMinutes` · Default: **60** · Number · Systems with your own planets or moons are rescanned this often, before all other scans (0 = off)
+`Experimental.GalaxyCache.ScanData.OwnSystemsEveryMinutes` · Default: **60** · Number · Systems with your own planets or moons are rescanned this often, before all other scans (0 = off)
 
 Systems with your own planets and moons are rescanned at least this often, before all other background scans (default 60 minutes, 0 = off). A raid colony next to you shows up within the hour instead of the 24 h full scan.
 
 #### 6.131 Own systems: also this many systems left and right
 
-`Experimental.GalaxyCache.OwnSystemsRange` · Default: **0** · Number · 0 = only the systems with your own planets and moons
+`Experimental.GalaxyCache.ScanData.OwnSystemsRange` · Default: **0** · Number · 0 = only the systems with your own planets and moons
 
 Also scan this many systems left and right of each own system (default 0 = only the system itself). 1 = the two neighbours as well.
 
 #### 6.132 Pause between background queries, from (seconds)
 
-`Experimental.GalaxyCache.DelayMinSeconds` · Default: **4** · Number
+`Experimental.GalaxyCache.ScanData.DelayMinSeconds` · Default: **4** · Number
 
 Shortest pause between two background queries (default 4 seconds).
 
 #### 6.133 Pause between background queries, to (seconds)
 
-`Experimental.GalaxyCache.DelayMaxSeconds` · Default: **8** · Number
+`Experimental.GalaxyCache.ScanData.DelayMaxSeconds` · Default: **8** · Number
 
 Longest pause between two background queries (default 8 seconds).
 
@@ -400,13 +400,13 @@ AutoFarm takes its scan for inactive targets from the cache while the entry is f
 
 #### 6.136 Write detected events to the log
 
-`Experimental.GalaxyCache.Events` · Default: **yes** · Switch · New colony, planet gone, new moon, status change, move
+`Experimental.GalaxyCache.ScanData.Events` · Default: **yes** · Switch · New colony, planet gone, new moon, status change, move
 
 Write detected changes to the log: new colony, planet gone, new moon, status change, move (default on).
 
 #### 6.137 Warn by Telegram / Discord
 
-`Experimental.GalaxyCache.Telegram` · Default: **yes** · Switch · For new colonies and moves of other players
+`Experimental.GalaxyCache.ScanData.Telegram` · Default: **yes** · Switch · For new colonies and moves of other players
 
 Send new colonies and moves of other players by Telegram / Discord (default on). Other events only appear in the log.
 

@@ -1,6 +1,6 @@
-Seiten: [Übersicht](README.md) · [Start](seite-start.md) · [Ogame](seite-ogame.md) · [Logistic & Expedition](seite-logistik.md) · [Fleet & Farm](seite-farm.md) · [Rewards and boosters](seite-belohnungen.md) · [Build & Research](seite-bauforschung.md) · [Security & Sleep](seite-sicherheit.md) · [Logging](seite-logging.md) · [Auktionen](seite-auktionen.md) · [Leiste und Bedienung](seite-bedienung.md)
+Seiten: [Übersicht](README.md) · [Start](seite-start.md) · [Ogame](seite-ogame.md) · [Logistic & Expedition](seite-logistik.md) · [Fleet & Farm](seite-farm.md) · [Rewards and boosters](seite-belohnungen.md) · [Build & Research](seite-bauforschung.md) · [Security & Sleep](seite-sicherheit.md) · [Logging](seite-logging.md) · [Leiste und Bedienung](seite-bedienung.md)
 
-Felder: [Allgemein](felder-allgemein.md) · [Logistic & Expedition](felder-logistik.md) · [Fleet & Farm](felder-farm.md) · [Rewards and boosters](felder-belohnungen.md) · **Build & Research (Brain)** · [Security & Sleep](felder-sicherheit.md) · [Auktionen](felder-auktionen.md)
+Felder: [Allgemein](felder-allgemein.md) · [Logistic & Expedition](felder-logistik.md) · [Fleet & Farm](felder-farm.md) · [Rewards and boosters](felder-belohnungen.md) · **Build & Research (Brain)** · [Security & Sleep](felder-sicherheit.md)
 
 ---
 
@@ -8,7 +8,7 @@ Felder: [Allgemein](felder-allgemein.md) · [Logistic & Expedition](felder-logis
 
 Bau, Forschung, Lebensform, Schiffe, Verteidigung, Transporte, Ledger, Booster und Angebote.
 
-126 Felder, so wie die B4dLion-Oberfläche sie zeigt (Nummer = Feldnummer vor dem Feldnamen).
+125 Felder, so wie die B4dLion-Oberfläche sie zeigt (Nummer = Feldnummer vor dem Feldnamen).
 
 ![Build & Research (Brain)](img/bild-Brain.png)
 
@@ -364,7 +364,7 @@ Die Planeten in zufälliger Reihenfolge bearbeiten.
 
 `Brain.AutoMine.OptimizeForStart` · Standard: **ja** · Schalter
 
-Die Bauordnung für den Spielstart nutzen: erst die Minen auf 15 / 12 / 12, dann die Lager auf Stufe 10, ab den höheren Startminen nach jeder Mine ein Lager, dazu das Solarkraftwerk bis Stufe 10 (eine Stufe je 3 Minenstufen) (Roboterfabrik und Raumschiffwerft wie bisher). Ein Planet gilt als neu, solange eine Mine unter ihrem Startziel liegt oder ein Lager fehlt. Deine Max-Stufen gelten weiter.
+Feste Startliste auf jedem neuen Planeten, in der Reihenfolge der Direktiven (Tier 1 bis 6): Minen und Solarkraftwerk bis Metall 14 / Kristall 12 / Deuterium 10, Lager, Roboterfabrik 2, Werft 4, Forschungslabor 6 und 2 Solarsatelliten. Ein Planet, der diese Werte noch nicht hat, baut sie zuerst. Deine Max-Stufen gehen vor (ein Schritt über einem Limit entfällt). Danach gilt die bisherige Startregel (Minen bis 15 / 12 / 12, Lager nach Tagesproduktion).
 
 #### 3.053 Prioritize Robots And Nanites
 
@@ -452,15 +452,7 @@ Planet, auf dem die Forschung gestartet wird, meist der mit dem besten Forschung
 
 `Brain.AutoResearch.OptimizeForStart` · Standard: **ja** · Schalter
 
-Die Forschungsreihenfolge für den Spielstart nutzen.
-
-#### 3.089 ForceExpeditionStart
-
-`Brain.AutoResearch.ForceExpeditionStart` · Standard: **nein** · Schalter
-
-Research Astrophysics 1 (with Espionage 4, Impulse Drive 3) and Combustion Drive 6 first, so expeditions and small/large cargo ships are unlocked early. Takes precedence over the priorities and ignores the max levels. Default off.
-
-_Beschreibung noch englisch._
+Feste Start-Forschungsliste in der Reihenfolge der Direktiven (Energietechnik 1 und 3, Verbrennungstriebwerk 2 und 3, Spionagetechnik 2 und 4, Impulstriebwerk 3, Verbrennungstriebwerk 6, Computertechnik 1, Lasertechnik 3 und 6, Raumschiffpanzerung 2, Waffentechnik 1, Schildtechnik 1, Computertechnik 2, Astrophysik 1). Alles darüber hinaus (Astrophysik, Computertechnik und der Rest) macht die normale AutoResearch-Logik nach deinen Max-Werten und Prioritäten. Damit ist die Expedition früh freigeschaltet; der frühere Schalter „Expeditionsstart erzwingen“ ist entfallen. Die Max-Werte der Forschung gelten für diese Liste nicht.
 
 #### 3.093 PlasmaPriorityChecksPayback
 

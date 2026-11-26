@@ -1,6 +1,6 @@
-Pages: [Overview](README.md) · [Start](seite-start.md) · [Ogame](seite-ogame.md) · [Logistic & Expedition](seite-logistik.md) · [Fleet & Farm](seite-farm.md) · [Rewards and boosters](seite-belohnungen.md) · [Build & Research](seite-bauforschung.md) · [Security & Sleep](seite-sicherheit.md) · [Logging](seite-logging.md) · [Auctions](seite-auktionen.md) · [Bar and controls](seite-bedienung.md)
+Pages: [Overview](README.md) · [Start](seite-start.md) · [Ogame](seite-ogame.md) · [Logistic & Expedition](seite-logistik.md) · [Fleet & Farm](seite-farm.md) · [Rewards and boosters](seite-belohnungen.md) · [Build & Research](seite-bauforschung.md) · [Security & Sleep](seite-sicherheit.md) · [Logging](seite-logging.md) · [Bar and controls](seite-bedienung.md)
 
-Fields: [General](felder-allgemein.md) · **Logistic & Expedition** · [Fleet & Farm](felder-farm.md) · [Rewards and boosters](felder-belohnungen.md) · [Build & Research (Brain)](felder-bauforschung.md) · [Security & Sleep](felder-sicherheit.md) · [Auctions](felder-auktionen.md)
+Fields: [General](felder-allgemein.md) · **Logistic & Expedition** · [Fleet & Farm](felder-farm.md) · [Rewards and boosters](felder-belohnungen.md) · [Build & Research (Brain)](felder-bauforschung.md) · [Security & Sleep](felder-sicherheit.md)
 
 ---
 
@@ -8,7 +8,7 @@ Fields: [General](felder-allgemein.md) · **Logistic & Expedition** · [Fleet & 
 
 Expeditions, colonizing and discovery.
 
-47 fields, as the B4dLion interface shows them (number = field number before the field name).
+49 fields, as the B4dLion interface shows them (number = field number before the field name).
 
 ![Logistic & Expedition](img/bild-Expeditions.png)
 
@@ -172,23 +172,37 @@ Longest extra pause in seconds after the first return before the next round.
 
 #### 5.032 Active
 
-`Expeditions.SleepWave.Active` · Default: **no** · Switch · Wave of expeditions that returns around wake-up
+`Expeditions.SleepWave.Active` · Default: **no** · Switch · Expeditionswelle, die um das Aufwachen zurückkommt. Ohne System-Split fliegt jede Flotte ins eigene System; die Rückkehr kann selbst bei 10 % deutlich zu früh sein.
 
 One extra expedition wave right before the bot goes to sleep.
 
 #### 5.033 Return at
 
-`Expeditions.SleepWave.ReturnAt` · Default: **“WakeUp+15”** · Text · HH:mm, WakeUp or WakeUp+15 (minutes); empty = fixed speed
+`Expeditions.SleepWave.ReturnAt` · Default: **“WakeUp+15”** · Text · Wenn gesetzt, plant der Bot Zielsystem und Geschwindigkeit passend zur Rückkehrzeit; Feld 5.34 wird ignoriert. Leer = feste Geschwindigkeit aus Feld 5.34.
 
-Time when the wave should be back.
+When set, the bot chooses target system and speed to match this return time; SpeedPercent is ignored. Empty = use the fixed speed from SpeedPercent.
 
 **Example:** WakeUp+15 = 15 minutes after waking up.
 
 #### 5.034 Speed (fallback)
 
-`Expeditions.SleepWave.SpeedPercent` · Default: **50** · Number · Used when ReturnAt is empty
+`Expeditions.SleepWave.SpeedPercent` · Default: **50** · Number · Feste Geschwindigkeit nur, wenn „Rückkehr um“ leer ist; sonst wird dieses Feld ignoriert (10 bis 100 in 10er-Schritten).
 
-Flight speed of the wave when no return time is set (10 to 100 in steps of 10).
+Fixed flight speed, used only when ReturnAt is empty; ignored when a return time is set (10 to 100 in steps of 10).
+
+#### 5.042 Split systems
+
+`Expeditions.SleepWave.SplitSystems.Active` · Default: **no** · Switch · Eigene Systemaufteilung für die Schlafwelle, unabhängig von der Tages-Einstellung
+
+Enable a system split for the sleep wave, independent of the daytime setting.
+
+#### 5.043 Umkreis (Systeme)
+
+`Expeditions.SleepWave.SplitSystems.Range` · Default: **3** · Number · Systeme links und rechts vom Ursprung, die die Schlafwelle verwenden darf
+
+Systems to each side of the origin that the sleep wave may target.
+
+**Example:** 3 = up to 3 systems in each direction.
 
 ## AutoDiscovery
 

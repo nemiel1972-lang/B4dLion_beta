@@ -1,6 +1,6 @@
-Pages: [Overview](README.md) · [Start](seite-start.md) · [Ogame](seite-ogame.md) · [Logistic & Expedition](seite-logistik.md) · [Fleet & Farm](seite-farm.md) · [Rewards and boosters](seite-belohnungen.md) · [Build & Research](seite-bauforschung.md) · [Security & Sleep](seite-sicherheit.md) · [Logging](seite-logging.md) · [Auctions](seite-auktionen.md) · [Bar and controls](seite-bedienung.md)
+Pages: [Overview](README.md) · [Start](seite-start.md) · [Ogame](seite-ogame.md) · [Logistic & Expedition](seite-logistik.md) · [Fleet & Farm](seite-farm.md) · [Rewards and boosters](seite-belohnungen.md) · [Build & Research](seite-bauforschung.md) · [Security & Sleep](seite-sicherheit.md) · [Logging](seite-logging.md) · [Bar and controls](seite-bedienung.md)
 
-Fields: [General](felder-allgemein.md) · [Logistic & Expedition](felder-logistik.md) · [Fleet & Farm](felder-farm.md) · [Rewards and boosters](felder-belohnungen.md) · **Build & Research (Brain)** · [Security & Sleep](felder-sicherheit.md) · [Auctions](felder-auktionen.md)
+Fields: [General](felder-allgemein.md) · [Logistic & Expedition](felder-logistik.md) · [Fleet & Farm](felder-farm.md) · [Rewards and boosters](felder-belohnungen.md) · **Build & Research (Brain)** · [Security & Sleep](felder-sicherheit.md)
 
 ---
 
@@ -8,7 +8,7 @@ Fields: [General](felder-allgemein.md) · [Logistic & Expedition](felder-logisti
 
 Building, research, lifeform, ships, defence, transports, ledger, boosters and offers.
 
-126 fields, as the B4dLion interface shows them (number = field number before the field name).
+125 fields, as the B4dLion interface shows them (number = field number before the field name).
 
 ![Build & Research (Brain)](img/bild-Brain.png)
 
@@ -364,7 +364,7 @@ Handle the planets in random order.
 
 `Brain.AutoMine.OptimizeForStart` · Default: **yes** · Switch
 
-Use the early game build order: mines up to 15 / 12 / 12 first, then the storages up to level 10, one storage after each of the higher start mines, and the solar plant up to level 10 (one level per 3 mine levels) (robotics and shipyard as before). A planet counts as new while a mine is below its start target or a storage is missing. Your Max levels still apply.
+Fixed start list on every new planet, in the order of the in-game directives (tiers 1 to 6): mines and solar plant up to metal 14 / crystal 12 / deuterium 10, storages, robotics factory 2, shipyard 4, research lab 6 and 2 solar satellites. A planet that does not have these values yet builds them first. Your max levels win (a step above a limit is skipped). Afterwards the previous start rule continues (mines to 15 / 12 / 12, storages by daily production).
 
 #### 3.053 Prioritize Robots And Nanites
 
@@ -452,13 +452,7 @@ Planet where research is started, usually the one with the best research lab.
 
 `Brain.AutoResearch.OptimizeForStart` · Default: **yes** · Switch
 
-Use the early game research order.
-
-#### 3.089 ForceExpeditionStart
-
-`Brain.AutoResearch.ForceExpeditionStart` · Default: **no** · Switch
-
-Research Astrophysics 1 (with Espionage 4, Impulse Drive 3) and Combustion Drive 6 first, so expeditions and small/large cargo ships are unlocked early. Takes precedence over the priorities and ignores the max levels. Default off.
+Fixed start research list in the order of the in-game directives (Energy 1 and 3, Combustion 2 and 3, Espionage 2 and 4, Impulse 3, Combustion 6, Computer 1, Laser 3 and 6, Armour 2, Weapons 1, Shielding 1, Computer 2, Astrophysics 1). Everything beyond that (Astrophysics, Computer Technology and the rest) is done by the normal AutoResearch logic with your Max values and priorities. This unlocks expeditions early; the former “Force expedition start” switch has been removed. The research Max values do not apply to this list.
 
 #### 3.093 PlasmaPriorityChecksPayback
 

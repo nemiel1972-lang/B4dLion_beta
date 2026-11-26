@@ -1,6 +1,6 @@
-Seiten: [Übersicht](README.md) · [Start](seite-start.md) · [Ogame](seite-ogame.md) · [Logistic & Expedition](seite-logistik.md) · [Fleet & Farm](seite-farm.md) · [Rewards and boosters](seite-belohnungen.md) · [Build & Research](seite-bauforschung.md) · [Security & Sleep](seite-sicherheit.md) · [Logging](seite-logging.md) · [Auktionen](seite-auktionen.md) · [Leiste und Bedienung](seite-bedienung.md)
+Seiten: [Übersicht](README.md) · [Start](seite-start.md) · [Ogame](seite-ogame.md) · [Logistic & Expedition](seite-logistik.md) · [Fleet & Farm](seite-farm.md) · [Rewards and boosters](seite-belohnungen.md) · [Build & Research](seite-bauforschung.md) · [Security & Sleep](seite-sicherheit.md) · [Logging](seite-logging.md) · [Leiste und Bedienung](seite-bedienung.md)
 
-Felder: [Allgemein](felder-allgemein.md) · [Logistic & Expedition](felder-logistik.md) · **Fleet & Farm** · [Rewards and boosters](felder-belohnungen.md) · [Build & Research (Brain)](felder-bauforschung.md) · [Security & Sleep](felder-sicherheit.md) · [Auktionen](felder-auktionen.md)
+Felder: [Allgemein](felder-allgemein.md) · [Logistic & Expedition](felder-logistik.md) · **Fleet & Farm** · [Rewards and boosters](felder-belohnungen.md) · [Build & Research (Brain)](felder-bauforschung.md) · [Security & Sleep](felder-sicherheit.md)
 
 ---
 
@@ -96,13 +96,13 @@ Ein unverteidigtes Ziel wird nur angegriffen, wenn mindestens so viel Beute zu h
 
 Dasselbe Minimum für Ziele mit Schiffen oder Verteidigung. Setze es höher als den Wert darüber, weil diese Kämpfe Schiffe kosten können.
 
-#### 6.015 Mindestrang des Spielers
+#### 6.015 Höchste Rangnummer des Spielers
 
-`AutoFarm.MinimumPlayerRank` · Standard: **3000** · Zahl · Spieler ignorieren, die besser platziert sind als
+`AutoFarm.MinimumPlayerRank` · Standard: **3000** · Zahl · Spieler ignorieren, die schlechter platziert sind als
 
-Spieler mit einem besseren Rang (kleinere Zahl) als diesem werden übersprungen.
+Spieler mit einem schlechteren Rang (größere Zahl) als diesem werden übersprungen. Gefarmt werden nur Spieler bis zu diesem Rang.
 
-**Beispiel:** 3000 = ein Spieler auf Rang 1500 wird übersprungen, einer auf Rang 5000 wird gefarmt.
+**Beispiel:** 3000 = ein Spieler auf Rang 1500 wird gefarmt, einer auf Rang 5000 wird übersprungen.
 
 #### 6.016 Max. Flugzeit
 
