@@ -174,7 +174,7 @@ Right before an attack, a report older than this is discarded and the target is 
 
 #### 6.026 Process all reports
 
-`AutoFarm.ProcessAllReports` · Default: **yes** · Switch · Also evaluate reports of targets B4dLion did not probe itself (manual probes)
+`AutoFarm.ProcessAllReports` · Default: **no** · Switch · Also evaluate reports of targets B4dLion did not probe itself (manual probes)
 
 Also evaluate reports of targets B4dLion did not probe itself (e.g. manual probes) when the target is inactive. false = ignore such reports.
 

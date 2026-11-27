@@ -174,7 +174,7 @@ Direkt vor einem Angriff wird ein älterer Bericht verworfen und das Ziel erneut
 
 #### 6.026 Alle Berichte verarbeiten
 
-`AutoFarm.ProcessAllReports` · Standard: **ja** · Schalter · Also evaluate reports of targets B4dLion did not probe itself (manual probes)
+`AutoFarm.ProcessAllReports` · Standard: **nein** · Schalter · Also evaluate reports of targets B4dLion did not probe itself (manual probes)
 
 Berichte zu Zielen, die B4dLion nicht selbst ausspioniert hat (z.B. manuelle Sonden), trotzdem auswerten, wenn das Ziel inaktiv ist. false = solche Berichte ignorieren.
 

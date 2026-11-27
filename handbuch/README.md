@@ -8,6 +8,8 @@ Felder: [Allgemein](felder-allgemein.md) · [Logistic & Expedition](felder-logis
 
 Anleitung für die Oberfläche von B4dLion: erst jede Seite mit ihren Reitern und der Bedienung, dann die Felder, die die Oberfläche zeigt, mit Nummer, Standardwert und Erklärung.
 
+> **Hinweis zum Stand:** Dieses Handbuch beschreibt den Stand **B4dLion.v1.5** (Handbuch erneuert am 27.11.2026). Es kann teilweise veraltet sein: Neuere Versionen können Seiten, Felder und Standardwerte ändern. Maßgeblich sind die Oberfläche selbst und die Hilfe an den Feldern. Die Feldnummern bleiben stabil.
+
 ## Seiten
 
 - [Start](seite-start.md): Die Startseite ist eine Übersicht aus Kacheln über den Bot und deinen Account: Status, Worker, Rohstoffe, Flot

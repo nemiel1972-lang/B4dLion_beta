@@ -8,6 +8,8 @@ Fields: [General](felder-allgemein.md) · [Logistic & Expedition](felder-logisti
 
 Guide to the B4dLion interface: first every page with its tabs and how to use it, then the fields the interface shows, with number, default value and explanation.
 
+> **Note on the version:** This manual describes version **B4dLion.v1.5** (updated 2026-11-27). It may be partly outdated: newer versions can change pages, fields and defaults. The interface itself and the help next to each field are authoritative. Field numbers stay stable.
+
 ## Pages
 
 - [Start](seite-start.md): The start page is an overview of tiles about the bot and your account: status, workers, resources, fleets, eve
